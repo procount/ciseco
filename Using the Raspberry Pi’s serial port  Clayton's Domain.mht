@@ -1,0 +1,3904 @@
+From: "Saved by Windows Internet Explorer 8"
+Subject: =?Windows-1252?Q?Using_the_Raspberry_Pi=92s_serial_port_|_Clayton's_Domain?=
+Date: Tue, 24 Jun 2014 11:34:07 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF8FA0.35D36720"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.irrational.net/2012/04/19/using-the-raspberry-pis-serial-port/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den-US><HEAD><TITLE>Using the Raspberry Pi=E2=80=99s serial =
+port | Clayton's Domain</TITLE>
+<META charset=3DUTF-8><LINK rel=3Dprofile =
+href=3D"http://gmpg.org/xfn/11"><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://www.irrational.net/wp-content/themes/twentyten/style.css" =
+
+media=3Dall><LINK rel=3Dpingback =
+href=3D"http://www.irrational.net/xmlrpc.php"><LINK=20
+title=3D"Clayton's Domain =C2=BB Feed" rel=3Dalternate =
+type=3Dapplication/rss+xml=20
+href=3D"http://www.irrational.net/feed/"><LINK=20
+title=3D"Clayton's Domain =C2=BB Comments Feed" rel=3Dalternate =
+type=3Dapplication/rss+xml=20
+href=3D"http://www.irrational.net/comments/feed/"><LINK=20
+title=3D"Clayton's Domain =C2=BB Using the Raspberry Pi=E2=80=99s serial =
+port Comments Feed"=20
+rel=3Dalternate type=3Dapplication/rss+xml=20
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/feed/">
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://www.irrational.net/wp-includes/js/comment-reply.min.js?ver=3D=
+3.8.1"></SCRIPT>
+<LINK title=3DRSD rel=3DEditURI type=3Dapplication/rsd+xml=20
+href=3D"http://www.irrational.net/xmlrpc.php?rsd"><LINK =
+rel=3Dwlwmanifest=20
+type=3Dapplication/wlwmanifest+xml=20
+href=3D"http://www.irrational.net/wp-includes/wlwmanifest.xml"><LINK=20
+title=3D"Making the Raspberry Pi a little less British" rel=3Dprev=20
+href=3D"http://www.irrational.net/2012/04/18/making-the-raspberry-pi-less=
+-british/"><LINK=20
+title=3D"Moving from Tomboy to Gnote in Ubuntu 12.04" rel=3Dnext=20
+href=3D"http://www.irrational.net/2012/04/27/moving-from-tomboy-to-gnote/=
+">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.18448"><LINK =
+rel=3Dcanonical=20
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/"><LINK=20
+rel=3Dshortlink href=3D"http://www.irrational.net/?p=3D79"></HEAD>
+<BODY class=3D"single single-post postid-79 single-format-standard">
+<DIV id=3Dwrapper class=3Dhfeed>
+<DIV id=3Dheader>
+<DIV id=3Dmasthead>
+<DIV id=3Dbranding role=3Dbanner>
+<DIV id=3Dsite-title><SPAN><A title=3D"Clayton's Domain"=20
+href=3D"http://www.irrational.net/" rel=3Dhome>Clayton's Domain</A> =
+</SPAN></DIV>
+<DIV id=3Dsite-description>The personal website of Clayton =
+Smith</DIV><IMG alt=3D""=20
+src=3D"http://www.irrational.net/wp-content/themes/twentyten/images/heade=
+rs/fern.jpg"=20
+width=3D940 height=3D198> </DIV><!-- #branding -->
+<DIV id=3Daccess role=3Dnavigation>
+<DIV class=3D"skip-link screen-reader-text"><A title=3D"Skip to content" =
+
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#content">Skip=20
+to content</A></DIV>
+<DIV class=3Dmenu>
+<UL>
+  <LI><A href=3D"http://www.irrational.net/">Home</A></LI>
+  <LI class=3D"page_item page-item-2"><A=20
+  =
+href=3D"http://www.irrational.net/about/">About</A></LI></UL></DIV></DIV>=
+<!-- #access --></DIV><!-- #masthead --></DIV><!-- #header -->
+<DIV id=3Dmain>
+<DIV id=3Dcontainer>
+<DIV id=3Dcontent role=3Dmain>
+<DIV id=3Dnav-above class=3Dnavigation>
+<DIV class=3Dnav-previous><A=20
+href=3D"http://www.irrational.net/2012/04/18/making-the-raspberry-pi-less=
+-british/"=20
+rel=3Dprev><SPAN class=3Dmeta-nav>=E2=86=90</SPAN> Making the Raspberry =
+Pi a little less=20
+British</A></DIV>
+<DIV class=3Dnav-next><A=20
+href=3D"http://www.irrational.net/2012/04/27/moving-from-tomboy-to-gnote/=
+"=20
+rel=3Dnext>Moving from Tomboy to Gnote in Ubuntu 12.04 <SPAN=20
+class=3Dmeta-nav>=E2=86=92</SPAN></A></DIV></DIV><!-- #nav-above -->
+<DIV id=3Dpost-79=20
+class=3D"post-79 post type-post status-publish format-standard hentry =
+category-uncategorized">
+<H1 class=3Dentry-title>Using the Raspberry Pi=E2=80=99s serial =
+port</H1>
+<DIV class=3Dentry-meta><SPAN class=3D"meta-prep =
+meta-prep-author">Posted on</SPAN>=20
+<A title=3D"8:38 am"=20
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/"=20
+rel=3Dbookmark><SPAN class=3Dentry-date>April 19, 2012</SPAN></A> <SPAN=20
+class=3Dmeta-sep>by</SPAN> <SPAN class=3D"author vcard"><A class=3D"url =
+fn n"=20
+title=3D"View all posts by argilo"=20
+href=3D"http://www.irrational.net/author/argilo/">argilo</A></SPAN> =
+</DIV><!-- .entry-meta -->
+<DIV class=3Dentry-content>
+<P>The stock Debian image for the Raspberry Pi uses the UART as a serial =
+
+console. I was able to connect to it from my Ubuntu laptop via my <A=20
+href=3D"https://www.adafruit.com/products/70">3.3-volt USB FTDI TTL-232 =
+cable</A>.=20
+I connected Raspberry Pi=E2=80=99s ground pin to the ground pin of the =
+FTDI, the=20
+Rasberry Pi=E2=80=99s TX pin to the FTDI=E2=80=99s RX pin and vice =
+versa. (The Raspberry Pi=E2=80=99s=20
+pinout is available <A=20
+href=3D"http://elinux.org/RPi_Low-level_peripherals">here</A>.) Then on =
+my Ubuntu=20
+laptop I installed minicom (<CODE>sudo apt-get install minicom</CODE>) =
+and fired=20
+it up with:</P>
+<BLOCKQUOTE>
+  <P><CODE>minicom -b 115200 -o -D /dev/ttyUSB0</CODE></P></BLOCKQUOTE>
+<P>After typing in a username, I got a password prompt and was able to =
+log in.=20
+Also, the serial console allowed me to see all the kernel output during =
+boot,=20
+which could be handy someday.</P>
+<P>But I wanted to use the Raspberry Pi=E2=80=99s UART for my own =
+purposes, not as a=20
+serial console. To achieve that, I did the following.</P>
+<P>First, I made a backup of the /boot/cmdline.txt file, which contains =
+the=20
+kernel parameters:</P>
+<BLOCKQUOTE>
+  <P><CODE>sudo cp /boot/cmdline.txt=20
+/boot/cmdline_backup.txt</CODE></P></BLOCKQUOTE>
+<P>Then I edited it:</P>
+<BLOCKQUOTE>
+  <P><CODE>sudo vi /boot/cmdline.txt</CODE></P></BLOCKQUOTE>
+<P>Originally it contained:</P>
+<BLOCKQUOTE>
+  <P><CODE>dwc_otg.lpm_enable=3D0 rpitestmode=3D1 =
+console=3DttyAMA0,115200=20
+  kgdboc=3DttyAMA0,115200 console=3Dtty1 root=3D/dev/mmcblk0p2 =
+rootfstype=3Dext4=20
+  rootwait</CODE></P></BLOCKQUOTE>
+<P>I deleted the two parameters involving the serial port =
+(<CODE>ttyAMA0</CODE>)=20
+to get the following:</P>
+<BLOCKQUOTE>
+  <P><CODE>dwc_otg.lpm_enable=3D0 rpitestmode=3D1 console=3Dtty1 =
+root=3D/dev/mmcblk0p2=20
+  rootfstype=3Dext4 rootwait</CODE></P></BLOCKQUOTE>
+<P>I rebooted (<CODE>sudo reboot</CODE>) to confirm that kernel output =
+was no=20
+longer going to the serial port. But the serial console was still =
+available. So=20
+I edited /etc/inittab:</P>
+<BLOCKQUOTE>
+  <P><CODE>sudo vi /etc/inittab</CODE></P></BLOCKQUOTE>
+<P>I commented out the following line:</P>
+<BLOCKQUOTE>
+  <P><CODE>2:23:respawn:/sbin/getty -L ttyAMA0 115200=20
+vt100</CODE></P></BLOCKQUOTE>
+<P>Finally, I rebooted again and confirmed that nothing was touching the =
+serial=20
+port anymore. Then, to test it out I installed minicom on the Raspberry =
+Pi:</P>
+<BLOCKQUOTE>
+  <P><CODE>sudo apt-get install minicom</CODE></P></BLOCKQUOTE>
+<P>And ran it:</P>
+<BLOCKQUOTE>
+  <P><CODE>minicom -b 115200 -o -D /dev/ttyAMA0</CODE></P></BLOCKQUOTE>
+<P>After firing up minicom on my Ubuntu laptop again, I was able to send =
+data in=20
+both directions!</P>
+<P>Now to get the Raspberry Pi talking to an =
+Arduino=E2=80=A6</P></DIV><!-- .entry-content -->
+<DIV class=3Dentry-utility>This entry was posted in <A=20
+title=3D"View all posts in Uncategorized"=20
+href=3D"http://www.irrational.net/category/uncategorized/"=20
+rel=3D"category tag">Uncategorized</A>. Bookmark the <A=20
+title=3D"Permalink to Using the Raspberry Pi=E2=80=99s serial port"=20
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/"=20
+rel=3Dbookmark>permalink</A>. </DIV><!-- .entry-utility --></DIV><!-- =
+#post-## -->
+<DIV id=3Dnav-below class=3Dnavigation>
+<DIV class=3Dnav-previous><A=20
+href=3D"http://www.irrational.net/2012/04/18/making-the-raspberry-pi-less=
+-british/"=20
+rel=3Dprev><SPAN class=3Dmeta-nav>=E2=86=90</SPAN> Making the Raspberry =
+Pi a little less=20
+British</A></DIV>
+<DIV class=3Dnav-next><A=20
+href=3D"http://www.irrational.net/2012/04/27/moving-from-tomboy-to-gnote/=
+"=20
+rel=3Dnext>Moving from Tomboy to Gnote in Ubuntu 12.04 <SPAN=20
+class=3Dmeta-nav>=E2=86=92</SPAN></A></DIV></DIV><!-- #nav-below -->
+<DIV id=3Dcomments>
+<H3 id=3Dcomments-title>37 Responses to <EM>Using the Raspberry =
+Pi=E2=80=99s serial=20
+port</EM></H3>
+<OL class=3Dcommentlist>
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://lavalink.com/2012/04/more-on-raspberry-pi-serial-ports/"=20
+  rel=3D"external nofollow">More on Raspberry Pi serial ports | LAVA: =
+The Source=20
+  for Ports - Serial Port Experts</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://benosteen.wordpress.com/2012/04/24/raspberry-pis-onboard-s=
+erial-connection/"=20
+  rel=3D"external nofollow">Raspberry Pi=E2=80=99s onboard Serial =
+connection =C2=AB Random=20
+  Hacks</A></P></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-6175 class=3D"comment even thread-even depth-1">
+  <DIV id=3Dcomment-6175>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/ff6adf689bdadc0c877d244c2165f773?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Alex Gibson</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-6175">May=20
+  13, 2012 at 3:19 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Hi there, great write-up that is accessible to linux n00bs like me. =
+I=20
+  wonder if you can help me at all further please?<BR>I want to attach a =
+serial=20
+  mouse systems mouse to my Pi. </P>
+  <P>I have a RS232 breakout board, and have swapped a MAX3232CPE chip =
+in to=20
+  make sure it=E2=80=99s 3V3 friendly.<BR>I followed all of the above to =
+help me detach=20
+  the console from ttyAMA0<BR>I learned about apt-get and installed =
+inputattach=20
+  and ldattach.<BR>Set ldattach -s 1200 MOUSE /dev/ttyAMA0<BR>Set =
+inputattach=20
+  =E2=80=93mousesystems /dev/ttyAMA0 &amp;</P>
+  <P>sadly this does not seem to have resulted in, as I hoped, a working =
+mouse=20
+  <IMG class=3Dwp-smiley alt=3D:(=20
+  =
+src=3D"http://www.irrational.net/wp-includes/images/smilies/icon_sad.gif"=
+> </P>
+  <P>Out of ideas =E2=80=93 all of the above was new to me!!! Can you =
+offer any pointers=20
+  please?<BR>Cheers, Alex</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-6175", "6175", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D6175#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  -->
+  <UL class=3Dchildren>
+    <LI id=3Dli-comment-23319 class=3D"comment odd alt depth-2">
+    <DIV id=3Dcomment-23319>
+    <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+    =
+src=3D"http://0.gravatar.com/avatar/22f400c98fb3b9c8246623605df61ba2?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+    width=3D40 height=3D40> <CITE class=3Dfn><A class=3Durl=20
+    href=3D"http://theepiczoe.wordpress.com/"=20
+    rel=3D"external nofollow">yvonnezoe</A></CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+    </DIV><!-- .comment-author .vcard -->
+    <DIV class=3D"comment-meta commentmetadata"><A=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-23319">February=20
+    27, 2013 at 10:53 pm</A> </DIV><!-- .comment-meta .commentmetadata =
+-->
+    <DIV class=3Dcomment-body>
+    <P>hmmm? don=E2=80=99t your mouse directly after plugging into the =
+USB port?=20
+    :O</P></DIV>
+    <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+    onclick=3D'return addComment.moveForm("comment-23319", "23319", =
+"respond", "79")'=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D23319#respond">Reply</A>=20
+    </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- =
+#comment-## --></UL><!-- .children --></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://harizanov.com/2012/06/interfacing-rfm12b-to-raspberry-pi-f=
+or-cheap/"=20
+  rel=3D"external nofollow">Interfacing RFM12B to Raspberry Pi for cheap =
+|=20
+  Martin's corner on the web</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://baldwisdom.com/preparing-for-a-la-mode-raspberry-pi-and-ar=
+duino/"=20
+  rel=3D"external nofollow">Bald Wisdom =C2=BB Blog Archive =C2=BB =
+Preparing for =C3=A0 la mode:=20
+  Raspberry Pi and Arduino</A></P></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-9698 class=3D"comment even thread-odd thread-alt =
+depth-1">
+  <DIV id=3Dcomment-9698>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/082229b054de57f44f99f4a1e369b30b?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Mikael Johansson</CITE> <SPAN =
+
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-9698">July=20
+  17, 2012 at 8:45 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Thanks for that info. Now my little project works as it should!</P>
+  <P><A =
+href=3D"http://www.youtube.com/watch?v=3D_W1WXnL9MeA&amp;feature=3Dyoutu.=
+be"=20
+  =
+rel=3Dnofollow>http://www.youtube.com/watch?v=3D_W1WXnL9MeA&amp;feature=3D=
+youtu.be</A></P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-9698", "9698", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D9698#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-10043 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-10043>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/bb2422579b18b096f5bd52243387631d?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>redguy</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-10043">August=20
+  17, 2012 at 8:11 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Most serial mouses =E2=80=9Csteal=E2=80=9D power from the other =
+datalines (RTS/CTS etc.) to=20
+  power themselves.. the RS232 breakoutboard you are using does not =
+support=20
+  these lines so the mouse is probably just not getting enough power to=20
+  work.</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-10043", "10043", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D10043#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-12325 class=3D"comment even thread-odd thread-alt =
+depth-1">
+  <DIV id=3Dcomment-12325>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/d5bb71672f649bfd0799391b68143da8?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Mitja</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-12325">October=20
+  11, 2012 at 5:17 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Great post</P>
+  <P>Can you maybe give me an advice how to enable the RPi serial port =
+adapter=20
+  (USB) to send data from the RPi to a device with FTDI chip attached =
+(connected=20
+  to RPi USB)?</P>
+  <P>Thanks<BR>Mitja</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-12325", "12325", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D12325#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-12620 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-12620>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/0be904a3e87a990a3858bf44c4f80767?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>radio_davio</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-12620">October=20
+  15, 2012 at 12:19 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Hi, I have the RPi serial port working as a console connected to my =
+PC.=20
+  Like you, I wish to use the serial port for another purpose, sending =
+and=20
+  receiving ascii words to control off the shelf I/O cards. </P>
+  <P>I tried to edit the RPi=E2=80=99s cmdline.txt file; however, could =
+not. Opening it=20
+  in vi, I get one line of code =E2=80=9Cdatadev=3Dmmcblk0ps=E2=80=9D. =
+Then there are 21 lines=20
+  with only the tilda character and then one =
+line:<BR>=E2=80=9C/boot/cmdline.txt=E2=80=9D=20
+  [Incomplete last line] 1 line, 17 characters</P>
+  <P>Any help would be much appreciated!</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-12620", "12620", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D12620#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  -->
+  <UL class=3Dchildren>
+    <LI id=3Dli-comment-12734 class=3D"comment even depth-2">
+    <DIV id=3Dcomment-12734>
+    <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+    =
+src=3D"http://0.gravatar.com/avatar/0be904a3e87a990a3858bf44c4f80767?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+    width=3D40 height=3D40> <CITE class=3Dfn>radio_davio</CITE> <SPAN=20
+    class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+    <DIV class=3D"comment-meta commentmetadata"><A=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-12734">October=20
+    17, 2012 at 6:55 am</A> </DIV><!-- .comment-meta .commentmetadata =
+-->
+    <DIV class=3Dcomment-body>
+    <P>Found my faults. Had installed Raspi using berry bootloader. This =
+did=20
+    load and run; however, there were discrepancies. </P>
+    <P>After loading the OS image using wind32diskimager, all is fine. =
+Now=20
+    looking at serial communication!</P>
+    <P>Thanks for the great info.</P></DIV>
+    <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+    onclick=3D'return addComment.moveForm("comment-12734", "12734", =
+"respond", "79")'=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D12734#respond">Reply</A>=20
+    </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- =
+#comment-## --></UL><!-- .children --></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://www.raspberry-projects.com/pi/programming-in-c/c-libraries=
+/using-the-uart"=20
+  rel=3D"external nofollow">Using the UART =C2=AB Raspberry Pi =
+Projects</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://tinajalabs.wordpress.com/2012/09/02/raspberry-pi-as-an-xbe=
+e-wireless-sensor-network-gateway/"=20
+  rel=3D"external nofollow">Raspberry Pi as an Xbee Wireless Sensor =
+Network=20
+  Gateway =C2=AB Tinaja Labs</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://jeffskinnerbox.wordpress.com/2012/12/05/drive-a-16x2-lcd-w=
+ith-the-raspberry-pi/"=20
+  rel=3D"external nofollow">Raspberry Pi Serial Communication: What, =
+Why, and a=20
+  Touch of How | Jeff's Skinner Box</A></P></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-18288 class=3D"comment odd alt thread-odd =
+thread-alt depth-1">
+  <DIV id=3Dcomment-18288>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/c58ebeaa536cc5b26aff78fdb1406a5c?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>suman</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-18288">December=20
+  13, 2012 at 8:41 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>I did follow the above instruction but still i am not able to use =
+the=20
+  uart;<BR>I get the error as =E2=80=9CRead failed- : Resource =
+temporarily=20
+  unavailable=E2=80=9D</P>
+  <P>Can you please help me solve the same.</P>
+  <P>Regards<BR>Suman</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-18288", "18288", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D18288#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  -->
+  <UL class=3Dchildren>
+    <LI id=3Dli-comment-18289=20
+    class=3D"comment byuser comment-author-argilo bypostauthor even =
+depth-2">
+    <DIV id=3Dcomment-18289>
+    <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+    =
+src=3D"http://1.gravatar.com/avatar/73fde1ed12aeab0cbbeb680102120b01?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+    width=3D40 height=3D40> <CITE class=3Dfn>argilo</CITE> <SPAN=20
+    class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+    <DIV class=3D"comment-meta commentmetadata"><A=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-18289">December=20
+    13, 2012 at 8:45 am</A> </DIV><!-- .comment-meta .commentmetadata =
+-->
+    <DIV class=3Dcomment-body>
+    <P>Have you tried running your command or program as root (by =
+putting =E2=80=9Csudo=E2=80=9D=20
+    at the start)?</P></DIV>
+    <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+    onclick=3D'return addComment.moveForm("comment-18289", "18289", =
+"respond", "79")'=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D18289#respond">Reply</A>=20
+    </DIV><!-- .reply --></DIV><!-- #comment-##  -->
+    <UL class=3Dchildren>
+      <LI id=3Dli-comment-18721 class=3D"comment odd alt depth-3">
+      <DIV id=3Dcomment-18721>
+      <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo"=20
+      alt=3D""=20
+      =
+src=3D"http://0.gravatar.com/avatar/c58ebeaa536cc5b26aff78fdb1406a5c?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+      width=3D40 height=3D40> <CITE class=3Dfn>suman</CITE> <SPAN=20
+      class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+      <DIV class=3D"comment-meta commentmetadata"><A=20
+      =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-18721">December=20
+      19, 2012 at 11:34 pm</A> </DIV><!-- .comment-meta .commentmetadata =
+-->
+      <DIV class=3Dcomment-body>
+      <P>Ya i did but did not help me. <IMG class=3Dwp-smiley alt=3D:(=20
+      =
+src=3D"http://www.irrational.net/wp-includes/images/smilies/icon_sad.gif"=
+>=20
+      </P></DIV>
+      <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+      onclick=3D'return addComment.moveForm("comment-18721", "18721", =
+"respond", "79")'=20
+      =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D18721#respond">Reply</A>=20
+      </DIV><!-- .reply --></DIV><!-- #comment-##  -->
+      <UL class=3Dchildren>
+        <LI id=3Dli-comment-18724=20
+        class=3D"comment byuser comment-author-argilo bypostauthor even =
+depth-4">
+        <DIV id=3Dcomment-18724>
+        <DIV class=3D"comment-author vcard"><IMG class=3D"avatar =
+avatar-40 photo"=20
+        alt=3D""=20
+        =
+src=3D"http://1.gravatar.com/avatar/73fde1ed12aeab0cbbeb680102120b01?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+        width=3D40 height=3D40> <CITE class=3Dfn>argilo</CITE> <SPAN=20
+        class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+        <DIV class=3D"comment-meta commentmetadata"><A=20
+        =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-18724">December=20
+        19, 2012 at 11:54 pm</A> </DIV><!-- .comment-meta =
+.commentmetadata -->
+        <DIV class=3Dcomment-body>
+        <P>Unfortunately I=E2=80=99m out of ideas, and I won=E2=80=99t =
+have my Pi on hand again=20
+        for another couple weeks so I can=E2=80=99t try anything out. =
+I=E2=80=99d suggest asking=20
+        on the Raspberry Pi forums. Let me know if you find a solution =
+so I can=20
+        add it to my article.</P></DIV>
+        <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+        onclick=3D'return addComment.moveForm("comment-18724", "18724", =
+"respond", "79")'=20
+        =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D18724#respond">Reply</A>=20
+        </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- =
+#comment-## --></UL><!-- .children --></LI><!-- #comment-## --></UL><!-- =
+.children --></LI><!-- #comment-## --></UL><!-- .children --></LI><!-- =
+#comment-## -->
+  <LI id=3Dli-comment-20160 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-20160>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/5868c2ad97c50a9f14ec09c9e7c3d91c?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Dave</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-20160">January=20
+  9, 2013 at 9:51 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>The project I=E2=80=99m working on requires inputting ASCII strings =
+from two=20
+  separate RS232 serial interfaces (operating at different speeds). My =
+current=20
+  thinking is to just MUX them into GPIO 15 (RxD) one at a time (with =
+the MUX=20
+  selector being one of the other GPIO pins). The data strings are =
+repeating,=20
+  and no transmit from the RPI to either of the other devices is =
+required. </P>
+  <P>I=E2=80=99m curious =E2=80=93 is there a simpler way to interface =
+these two RS232 inputs to=20
+  the RPI than to have the external MUX logic? </P>
+  <P>Any and all input is appreciated =E2=80=93 Thanks!</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-20160", "20160", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D20160#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-20404 class=3D"comment even thread-odd thread-alt =
+depth-1">
+  <DIV id=3Dcomment-20404>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/456fc5b35c18c97d4e42e6d43e77ee4c?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Brendan</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-20404">January=20
+  12, 2013 at 5:21 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>I tried commenting out =E2=80=9C2:23:respawn:/sbin/getty -L ttyAMA0 =
+115200=20
+  vt100=E2=80=B3<BR>as you said but the my line was not exactly like =
+this, it was=20
+  TO:2:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100=E2=80=B3</P>
+  <P>and was right at the end of the file</P>
+  <P>i did the sudo reboot ( the first time i ever did this command)</P>
+  <P>now my pi said =E2=80=9Ccannot Restart=E2=80=9D</P>
+  <P>now it wont start at all even if I turn it off and on again </P>
+  <P>After I put the soft float os then installed JDK Java</P>
+  <P>Compiled all the programs in the PI4j </P>
+  <P>now I have to start all over again</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-20404", "20404", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D20404#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://neophob.com/2013/01/serial-communication-between-raspberry=
+-pi-and-arduino/"=20
+  rel=3D"external nofollow">Serial communication between Raspberry Pi =
+and=20
+  Arduino</A></P></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-22300 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-22300>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/27317e059c215b67f83855ad2fac62f5?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>NIklas</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-22300">February=20
+  9, 2013 at 8:51 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>I have done the same thing as you said and I also use the C code =
+from the=20
+  website <A=20
+  =
+href=3D"http://www.raspberry-projects.com/pi/programming-in-c/uart-serial=
+-port/using-the-uart#more-482"=20
+  =
+rel=3Dnofollow>http://www.raspberry-projects.com/pi/programming-in-c/uart=
+-serial-port/using-the-uart#more-482</A></P>
+  <P>However the receive does not for my Pi. the sending is working to =
+be=20
+  fine.</P>
+  <P>However when I use screen /dev/ttyAMA0 57600, it pops up the window =
+and=20
+  close it.<BR>Then I try my code it works. I do not know why, could you =
+help=20
+  please</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-22300", "22300", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D22300#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-23280 class=3D"comment even thread-odd thread-alt =
+depth-1">
+  <DIV id=3Dcomment-23280>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/22f400c98fb3b9c8246623605df61ba2?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>yvonnezoe</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-23280">February=20
+  27, 2013 at 12:20 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Hey there. how do i get back the serial console ? <IMG =
+class=3Dwp-smiley=20
+  alt=3D:(=20
+  =
+src=3D"http://www.irrational.net/wp-includes/images/smilies/icon_sad.gif"=
+> i=20
+  followed through your tutorial without realizing what i need is =
+actually to=20
+  communicate with my computer through the UART=E2=80=A6<BR>i followed =
+this guide <A=20
+  =
+href=3D"http://www.savagehomeautomation.com/projects/raspberry-pi-install=
+ing-a-rs232-serial-port.html"=20
+  =
+rel=3Dnofollow>http://www.savagehomeautomation.com/projects/raspberry-pi-=
+installing-a-rs232-serial-port.html</A>=20
+  but i could not get any reply from R-Pi=E2=80=A6 so i doubt thats the =
+problem. what=20
+  should i do now??</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-23280", "23280", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D23280#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-25024 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-25024>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/db19661e0425f938e3084083014208db?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Lonely Coder</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-25024">March=20
+  16, 2013 at 6:07 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Great stuff, am able to talk to my XBee after disabling both of =
+those=E2=80=A6=20
+  Another site only mentioned disabling the first one, so I battled for=20
+  awhile.</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-25024", "25024", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D25024#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  href=3D"http://michael.bouvy.net/blog/2013/04/02/raspberry-pi-xbee/"=20
+  rel=3D"external nofollow">Raspberry PI + Xbee =C2=AB Michael's =
+Blog</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://vernonbreet.wordpress.com/2013/04/30/the-jes-javafx-applic=
+ation-part-3/"=20
+  rel=3D"external nofollow">The JES / JavaFX Application, Part 3. | =
+Vernon Breet's=20
+  Blog</A></P></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-37476 class=3D"comment even thread-odd thread-alt =
+depth-1">
+  <DIV id=3Dcomment-37476>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/9ffe9368125a59cfb89197f86ee38378?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn><A class=3Durl =
+href=3D"http://www.parsnav.com/"=20
+  rel=3D"external nofollow">Miralay</A></CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+</DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-37476">July=20
+  11, 2013 at 4:31 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Hi,</P>
+  <P>we have one problem for about Rs232</P>
+  <P>example I want give or take 1 data Pi to PC, I can send to PC no =
+problem=20
+  but I cant take Pc to Pi any data=E2=80=A6 if I send 30 times or 40 =
+times after I can=20
+  send PC to Pi=E2=80=A6 then it be normaly=E2=80=A6 but if I push =
+caracter from keyboard after=20
+  lock serial com=E2=80=A6 after I send again 30 or 40 times data then =
+open again=E2=80=A6 after=20
+  normaly=E2=80=A6 </P>
+  <P>I tried resister then I use max3232 but no change=E2=80=A6 only I =
+have problem for=20
+  Pi to PC send wire=E2=80=A6</P>
+  <P>example some example I have from internet =E2=80=9CPi serial com. =
+to ardiuno=E2=80=9D but=20
+  this not work=E2=80=A6</P>
+  <P>I will wait your helps =E2=80=A6</P>
+  <P>thanks a lot=E2=80=A6</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-37476", "37476", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D37476#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://newyear2006.wordpress.com/2013/08/03/raspberry-pi-und-seri=
+elle-schnittstelle/"=20
+  rel=3D"external nofollow">Raspberry Pi und serielle Schnittstelle | =
+Das nie=20
+  endende Chaos!</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl =
+href=3D"http://blagg.tadkom.net/2013/08/06/10-gps/"=20
+  rel=3D"external nofollow">$10 GPS | /dev/random</A></P></LI><!-- =
+#comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  =
+href=3D"http://www.raspberry-projects.com/pi/pi-operating-systems/raspbia=
+n/io-pins-raspbian/uart"=20
+  rel=3D"external nofollow">UART =C2=AB Raspberry Pi =
+Projects</A></P></LI><!-- #comment-## -->
+  <LI class=3D"post pingback">
+  <P>Pingback: <A class=3Durl=20
+  href=3D"http://www.danielcasner.org/garden-automation-part-1/"=20
+  rel=3D"external nofollow">=C2=BB Garden Automation Part 1 Daniel =
+Casner</A></P></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-43222 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-43222>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/59dcd36ca21ba38a235aa0a90184a83b?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn><A class=3Durl=20
+  href=3D"http://www.andrewscheller.co.uk/"=20
+  rel=3D"external nofollow">AndrewS</A></CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+</DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-43222">September=20
+  8, 2013 at 7:40 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>I=E2=80=99ve written a nice little easy-to-use script to automate =
+the task of=20
+  disabling (and re-enabling) the Raspberry Pi=E2=80=99s serial =
+console:<BR><A=20
+  href=3D"https://github.com/lurch/rpi-serial-console"=20
+  =
+rel=3Dnofollow>https://github.com/lurch/rpi-serial-console</A></P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-43222", "43222", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D43222#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-50083 class=3D"comment even thread-odd thread-alt =
+depth-1">
+  <DIV id=3Dcomment-50083>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/552a825f7ebd859d005b84763565bf0a?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>SeanR</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-50083">November=20
+  17, 2013 at 10:27 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>The simplest way to do it is just comment out the line in =
+/etc/inittab that=20
+  uses the serial port</P>
+  <P>eg<BR>#2:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100</P>
+  <P>Then reboot.</P>
+  <P>The serial port will be active while the system boots, but then =
+will be=20
+  idle once booting is complete.</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-50083", "50083", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D50083#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-58504 class=3D"comment odd alt thread-even =
+depth-1">
+  <DIV id=3Dcomment-58504>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/e95cbb29b051227ea8be44be39f48ba5?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Marjan Bautil</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-58504">January=20
+  15, 2014 at 2:46 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>hello=E2=80=A6 just wondering=E2=80=A6 is it possible to connect =
+the raspberry pi A to a=20
+  digital clock? my clock is TL =E2=80=93 4819. it is a digital wall =
+clock.. i want its=20
+  time to synchronize with my raspberry time=E2=80=A6</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-58504", "58504", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D58504#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  -->
+  <UL class=3Dchildren>
+    <LI id=3Dli-comment-58533=20
+    class=3D"comment byuser comment-author-argilo bypostauthor even =
+depth-2">
+    <DIV id=3Dcomment-58533>
+    <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+    =
+src=3D"http://1.gravatar.com/avatar/73fde1ed12aeab0cbbeb680102120b01?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+    width=3D40 height=3D40> <CITE class=3Dfn>argilo</CITE> <SPAN=20
+    class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+    <DIV class=3D"comment-meta commentmetadata"><A=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-58533">January=20
+    15, 2014 at 9:18 am</A> </DIV><!-- .comment-meta .commentmetadata =
+-->
+    <DIV class=3Dcomment-body>
+    <P>I imagine that would be possible, but it would most likely =
+require making=20
+    some modifications to the clock. A better place to ask would be on =
+the=20
+    Raspberry Pi forums: <A href=3D"http://www.raspberrypi.org/forums/"=20
+    rel=3Dnofollow>http://www.raspberrypi.org/forums/</A></P></DIV>
+    <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+    onclick=3D'return addComment.moveForm("comment-58533", "58533", =
+"respond", "79")'=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D58533#respond">Reply</A>=20
+    </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- =
+#comment-## --></UL><!-- .children --></LI><!-- #comment-## -->
+  <LI id=3Dli-comment-62639 class=3D"comment odd alt thread-odd =
+thread-alt depth-1">
+  <DIV id=3Dcomment-62639>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://0.gravatar.com/avatar/69b38d2d551a8869c8875cea4646a354?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>Prakash</CITE> <SPAN=20
+  class=3Dsays>says:</SPAN> </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-62639">March=20
+  3, 2014 at 12:00 pm</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>i can=E2=80=99t edit inittab file in =
+=E2=80=9CTO:23respawn:/sbin/getty -L ttyAMA0 115200=20
+  vt100=E2=80=B3 please help me.</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-62639", "62639", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D62639#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+-->
+  <LI id=3Dli-comment-65297 class=3D"comment even thread-even depth-1">
+  <DIV id=3Dcomment-65297>
+  <DIV class=3D"comment-author vcard"><IMG class=3D"avatar avatar-40 =
+photo" alt=3D""=20
+  =
+src=3D"http://1.gravatar.com/avatar/9a6d02079f6dee45e91f3a423f912ac2?s=3D=
+40&amp;d=3Dhttp%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9=
+bb6523536%3Fs%3D40&amp;r=3DG"=20
+  width=3D40 height=3D40> <CITE class=3Dfn>cc</CITE> <SPAN =
+class=3Dsays>says:</SPAN>=20
+  </DIV><!-- .comment-author .vcard -->
+  <DIV class=3D"comment-meta commentmetadata"><A=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#comment-65297">March=20
+  16, 2014 at 8:54 am</A> </DIV><!-- .comment-meta .commentmetadata -->
+  <DIV class=3Dcomment-body>
+  <P>Awesome, did not understand why the Raspberry Pi was not showing =
+anything=20
+  coming from the Arduino! Did the two changes, rebooted and it finally =
+worked=20
+  <IMG class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://www.irrational.net/wp-includes/images/smilies/icon_smile.gi=
+f">=20
+  (BTW, using a 3V3/5V logic level converter chip)</P></DIV>
+  <DIV class=3Dreply><A class=3Dcomment-reply-link=20
+  onclick=3D'return addComment.moveForm("comment-65297", "65297", =
+"respond", "79")'=20
+  =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/?replytocom=3D65297#respond">Reply</A>=20
+  </DIV><!-- .reply --></DIV><!-- #comment-##  --></LI><!-- #comment-## =
+--></OL>
+<DIV id=3Drespond class=3Dcomment-respond>
+<H3 id=3Dreply-title class=3Dcomment-reply-title>Leave a Reply <SMALL><A =
+
+style=3D"DISPLAY: none" id=3Dcancel-comment-reply-link=20
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/#respond"=20
+rel=3Dnofollow>Cancel reply</A></SMALL></H3>
+<FORM id=3Dcommentform class=3Dcomment-form method=3Dpost=20
+action=3Dhttp://www.irrational.net/wp-comments-post.php>
+<P class=3Dcomment-notes>Your email address will not be published. =
+Required fields=20
+are marked <SPAN class=3Drequired>*</SPAN></P>
+<P class=3Dcomment-form-author><LABEL for=3Dauthor>Name <SPAN=20
+class=3Drequired>*</SPAN></LABEL> <INPUT id=3Dauthor =
+aria-required=3Dtrue size=3D30=20
+type=3Dtext name=3Dauthor></P>
+<P class=3Dcomment-form-email><LABEL for=3Demail>Email <SPAN=20
+class=3Drequired>*</SPAN></LABEL> <INPUT id=3Demail aria-required=3Dtrue =
+size=3D30=20
+type=3Dtext name=3Demail></P>
+<P class=3Dcomment-form-url><LABEL for=3Durl>Website</LABEL> <INPUT =
+id=3Durl size=3D30=20
+type=3Dtext name=3Durl></P>
+<P class=3Dcomment-form-comment><LABEL for=3Dcomment>Comment</LABEL> =
+<TEXTAREA id=3Dcomment aria-required=3Dtrue rows=3D8 cols=3D45 =
+name=3Dcomment></TEXTAREA></P>
+<P class=3Dform-allowed-tags>You may use these <ABBR=20
+title=3D"HyperText Markup Language">HTML</ABBR> tags and attributes: =
+<CODE>&lt;a=20
+href=3D"" title=3D""&gt; &lt;abbr title=3D""&gt; &lt;acronym =
+title=3D""&gt; &lt;b&gt;=20
+&lt;blockquote cite=3D""&gt; &lt;cite&gt; &lt;code&gt; &lt;del =
+datetime=3D""&gt;=20
+&lt;em&gt; &lt;i&gt; &lt;q cite=3D""&gt; &lt;strike&gt; &lt;strong&gt; =
+</CODE></P>
+<P class=3Dform-submit><INPUT id=3Dsubmit value=3D"Post Comment" =
+type=3Dsubmit name=3Dsubmit>=20
+<INPUT id=3Dcomment_post_ID value=3D79 type=3Dhidden =
+name=3Dcomment_post_ID> <INPUT=20
+id=3Dcomment_parent value=3D0 type=3Dhidden name=3Dcomment_parent> </P>
+<P style=3D"DISPLAY: none"><INPUT id=3Dakismet_comment_nonce =
+value=3Dc89ce33890=20
+type=3Dhidden name=3Dakismet_comment_nonce></P></FORM></DIV><!-- =
+#respond --></DIV><!-- #comments --></DIV><!-- #content --></DIV><!-- =
+#container -->
+<DIV id=3Dprimary class=3Dwidget-area role=3Dcomplementary>
+<UL class=3Dxoxo>
+  <LI id=3Drecent-posts-4 class=3D"widget-container =
+widget_recent_entries">
+  <H3 class=3Dwidget-title>Recent Posts</H3>
+  <UL>
+    <LI><A=20
+    =
+href=3D"http://www.irrational.net/2014/03/22/reverse-engineering-a-ceilin=
+g-fan/">Reverse=20
+    engineering a ceiling fan</A> </LI>
+    <LI><A =
+href=3D"http://www.irrational.net/2014/03/02/digital-atv/">Digital=20
+    amateur TV on 70cm, 33cm and 23cm</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://www.irrational.net/2012/08/06/tracking-planes-for-20-or-le=
+ss/">Tracking=20
+    planes for $20 or less</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://www.irrational.net/2012/04/27/moving-from-tomboy-to-gnote/=
+">Moving=20
+    from Tomboy to Gnote in Ubuntu 12.04</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://www.irrational.net/2012/04/19/using-the-raspberry-pis-seri=
+al-port/">Using=20
+    the Raspberry Pi=E2=80=99s serial port</A> </LI></UL></LI>
+  <LI id=3Darchives-4 class=3D"widget-container widget_archive">
+  <H3 class=3Dwidget-title>Archives</H3>
+  <UL>
+    <LI><A href=3D"http://www.irrational.net/2014/03/">March =
+2014</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2012/08/">August =
+2012</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2012/04/">April =
+2012</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2012/01/">January =
+2012</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2010/11/">November =
+2010</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2010/07/">July =
+2010</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2009/09/">September =
+2009</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2009/03/">March =
+2009</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2007/11/">November =
+2007</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2007/09/">September =
+2007</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2007/05/">May 2007</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2007/03/">March =
+2007</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2006/07/">July =
+2006</A></LI>
+    <LI><A href=3D"http://www.irrational.net/2006/01/">January=20
+  2006</A></LI></UL></LI>
+  <LI id=3Dlinkcat-2 class=3D"widget-container widget_links">
+  <H3 class=3Dwidget-title>Blogroll</H3>
+  <UL class=3D"xoxo blogroll">
+    <LI><A href=3D"http://countybandits.ca/">Abandoned Houses of Kent=20
+    County</A></LI>
+    <LI><A href=3D"http://www.androidincanada.ca/">Android in =
+Canada</A></LI>
+    <LI><A href=3D"http://nirgle.net/" rel=3Dfriend>Jason =
+Hooper</A></LI>
+    <LI><A =
+href=3D"http://mobilesyrup.com/">Mobilesyrup</A></LI></UL></LI>
+  <LI id=3Dmeta-3 class=3D"widget-container widget_meta">
+  <H3 class=3Dwidget-title>Meta</H3>
+  <UL>
+    <LI><A href=3D"http://www.irrational.net/wp-login.php">Log =
+in</A></LI>
+    <LI><A title=3D"Syndicate this site using RSS 2.0"=20
+    href=3D"http://www.irrational.net/feed/">Entries <ABBR=20
+    title=3D"Really Simple Syndication">RSS</ABBR></A></LI>
+    <LI><A title=3D"The latest comments to all posts in RSS"=20
+    href=3D"http://www.irrational.net/comments/feed/">Comments <ABBR=20
+    title=3D"Really Simple Syndication">RSS</ABBR></A></LI>
+    <LI><A=20
+    title=3D"Powered by WordPress, state-of-the-art semantic personal =
+publishing platform."=20
+    =
+href=3D"http://wordpress.org/">WordPress.org</A></LI></UL></LI></UL></DIV=
+><!-- #primary .widget-area --></DIV><!-- #main -->
+<DIV id=3Dfooter role=3Dcontentinfo>
+<DIV id=3Dcolophon>
+<DIV id=3Dsite-info><A title=3D"Clayton's Domain" =
+href=3D"http://www.irrational.net/"=20
+rel=3Dhome>Clayton's Domain </A></DIV><!-- #site-info -->
+<DIV id=3Dsite-generator><A title=3D"Semantic Personal Publishing =
+Platform"=20
+href=3D"http://wordpress.org/" rel=3Dgenerator>Proudly powered by =
+WordPress.</A>=20
+</DIV><!-- #site-generator --></DIV><!-- #colophon --></DIV><!-- #footer =
+--></DIV><!-- #wrapper --></BODY></HTML>
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.irrational.net/wp-content/themes/twentyten/images/headers/fern.jpg
+
+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
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/ff6adf689bdadc0c877d244c2165f773?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.irrational.net/wp-includes/images/smilies/icon_sad.gif
+
+R0lGODlhDwAPALMMAP/qAEVFRQAAAP/OAP/JAP6dAP+0AP/+k//9E///x//lAP//6wAAAAAAAAAA
+AAAAACH5BAEAAAwALAAAAAAPAA8AAARYkEkZap2Y1ZXOGRcWcAgCnEMRTEEnnLCQrtrxwjGoJSZw
++yeCKnDo/W4EQ+WAawKSlZ4zqAwMpieFcGU9Cb7fp04zGPwACpmKVSa43bNMxUA3DDMsC20SAQA7
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/22f400c98fb3b9c8246623605df61ba2?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/082229b054de57f44f99f4a1e369b30b?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/bb2422579b18b096f5bd52243387631d?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/d5bb71672f649bfd0799391b68143da8?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/0be904a3e87a990a3858bf44c4f80767?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/c58ebeaa536cc5b26aff78fdb1406a5c?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/73fde1ed12aeab0cbbeb680102120b01?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAKAAo
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+4RrDapJ4AGcntXyL8Z/GGp6r4svLFr6SbTIn/wBHgjXYm3sSP4jx1NfbniHQml0O+Cq5IhZgI2IJ
+IGcZHPOMfjXyn4b0cXXi971rdPs9oI5I5H6MFblAc9TxX654i57WgqOGg2oNNuz3tZW+X9bEZBlk
+cZzO/vXS9N9TzLwjfS2eowTW1wYblCCkgO1lP+FfXXgnUv8AhKfDttfEASnKSgDjeOv59fxr5Z8f
+eCpfDWstNZ2ryWFxzCYwSFY8bc/XoK+h/wBlux1WLQNb0jWIpIL2yuI5DbzgiZBIm5dwPTKhSK8T
+gLNKmGx3JGT9lUTuunMldfPRoeb4X2dOVKcfei9/LY73+zj6fpRXZHRSP4aK/oX+0V3PjvZs72fw
+6LiCSIggOpUleCMjHFfJPxE+AWo/B3TxrCa6dV0ZZVjWGVPLmDHOxTgkP06jHrjvX3z/AGJjtXzN
++0ZrmleJvFdj4TREnbSZVubptx/1jL8qbR1wDk578V/Omf18NjsL+/V5L4fmfW5dUrYarzUnbucX
+4c0KXxh4XtpJrS1s76Ib7KZB/qJOqtx1wcHnPNbHw816O4+NupWN7EbK/vNLijnilb/WXMJwWTHB
+VkZWBJz27EV0eiXEcOjfbbWNZlijbyoV6fL2+p5rk/HttHrkOjePtC+bUNJIuDGijdc2xB3x9D8y
+gv8Akw78fG5fip5bKLoqyTTt/XqeriJSxcm6ru3pc9+/sL/ZorW+GmqR+NfC8N+jCXafLMgH3/lB
+B+uGAPuDRX6rTztVYKcXufNSoOEnFo9fk09UjZmGAoyTjNfkK/xOu28X6t4mWUyNeahJPKXXnyzI
+2cZ9ARxRRX5RiZym1dnrU/d2PfPh74phtdSvNNuLhPm2zK2flcOuVZR6Ec/zrL+G+uSaV431HwzO
+VNojXEoVm4EW/jj3LD8PrRRWRq3pc9Q/YdFx4b8b+O/AzTSS6bbH7ZaJJn92BJsOPZgyflRRRXTh
+qs4wcU9mGJSc0/JH/9k=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/5868c2ad97c50a9f14ec09c9e7c3d91c?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/456fc5b35c18c97d4e42e6d43e77ee4c?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/27317e059c215b67f83855ad2fac62f5?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/db19661e0425f938e3084083014208db?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/9ffe9368125a59cfb89197f86ee38378?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/59dcd36ca21ba38a235aa0a90184a83b?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+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
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/552a825f7ebd859d005b84763565bf0a?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAKAAo
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
++TPjZ8F/GPwc1KGw8W6JdaVIxYwSS4eOUKcN5cgyHHI6HIyM4zXld1CJ33SbkbsCvH519WT/ABy8
+T/tXzeGvDviyGK6M2ppE2qYMZEWdzqE5AJXjK7Rnbxzmvo27/Zo8AaL4YsdV/wCEd02dbu9mtzBL
+aqRGEbjDHk8Hv6Vy16nsVe17akwu9Gfm5oViLzVLOCJpHOSWEfOAFJJ/IGv0H1z9pDwxp2jHRbW3
+1DUJluY5GniiCxKoQg/eIOSTnp2rw34u/DHQ/CXxd0KPSbJdBttTs4Y2+zL8oZ5ZA7KueG8tUGP9
+r3r6Lt7fwb4K0aC3dLO1jKqitcld8hPAznqTj+dFoV4RlNbp/iN4KOLfvPRHR/Dz4qaT8SIpW0+8
+eWa0Kia3mULJGD0JA7HB70VzeiJ4abxrY3eiSWltrcGYL2C3Cq1xbOCQGUdSr7WBPQBh3ornnTjB
+2Wx8rj8M8JW5E7rc/OP4da5H4Y1yPU43lW+gKyW5Rl2hgc5ZSCG6dPXntX0Pqv7ZviPXfC2naK8s
+NpFZSyTCa2iG+Z36s5ZiAfTaAOelfOn24aJq8Ys5WtpJE2vKMuwHPQE+mOPatOPSb2WJZVltXjcA
+gtEfTvzxXre47wkkz6hxb95M908F+Nv+FuaxZ2OvzXGp63aQNdWV5cXG0x+WwKoirwMKWyPYnA7e
+7a7oPh7XbePUrm2ee7UKfLLnAI7gZ4r4JlsdS/tGGO2jDXLSAIlmjbifQAEnmvrWDX5EtdNOopIs
+M8EbSEIeCQCQR1yDXLVcIzVmephJe7y22PW/D7eGr7VDrlhZSW+qCIRGaZNjEqApGM+n8vaiuV0T
+ULK2EFykxMbSGITSReXkkEhRx0+U8/SivGxtVRqJJ9D5/NsPVr106cG7LdJnwtpltDOt293YrNdz
+HEM80jBIh/ujqeta3h+fUNTleJFiit1ITcqFi56BVBPJPFFFfRz0Vz6HLaEMRiVTqbWb+5Nn3/pH
+wm0f4M/s03uvpZQJ4sutIYSX5QGXdMOisRlR5W7gYHJzXk+n/E/wXd6LCZ706ZcRxIPs5gctGwAB
+CkKQRRRXyWUydeVSdTV+5+MVJ/jJn1GWYGliKdSUrq02tO21vwOW8T/FOPxRrug6Ro8EkOmi+ieW
+aYYeXB7DsOvufbuUUVyZ03CpBR7H2OFwtKg5QgtNP1P/2Q==
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/e95cbb29b051227ea8be44be39f48ba5?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://0.gravatar.com/avatar/69b38d2d551a8869c8875cea4646a354?s=40&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://1.gravatar.com/avatar/9a6d02079f6dee45e91f3a423f912ac2?s=40&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&r=G
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADBUlEQVRYw81YXU/CMBQ97b6EDNeY
+yBbYMgzEEB74/z9A/4MvQmI0xigQgmiQaX0a2Ua7rQWMTRa2w9Z7291zz70jt7e3HP94mJz/a/9g
+EkL+tYMUALK7yDnfXWd/VTHRfDoYPcWqRWGji53EQVHY6GJm8TUVV6Kz8mPuoDJJivcTQsAYw/n5
+OWzbBiEEm80Gq9UKy+USPz8/h7E49To1LDpPV5Wep/8HQYAwDGFZlnDyJEnw9PSE5+dn4Q5nFyvD
+TFmQl+2sYRi4vr4GYyzndHEhlmUhjmNcXFzg7u4OSZJU2iliVJYiZPFBKcVwOARjTBqrRazVamE0
+GoFSqpxyaBmjioYJIQjDEJ7n7cVk9nkR5rouer2eeqImhOQmLDssy0K3283dW3RIRKIU830fjUaj
+0k72UMqDl5eXoJQelAvb7fbppM7zvIPkj3MOxpiS1FUm6uxoNBqVhKjCzs7O9KSuDknS11tFiDKs
+bogIlaRKVbbbLWzbruWQbM4kSaCiXkrLWa/XBxcM7+/vpyPJbDY7mCTz+VytHlRRksVigc/PT22S
+fH194e3tbc8p0QbtKUmd4pNzjvv7e+GrrBOTk8kE39/fekpS91itVphMJkJHZOoCAA8PD1gsFlC1
+Z+rUaC8vL9hut+j3+9JSK8va6XSK19fXv22akiTZsbrsvvV6jc1mo900kZubG16VLrIPNptNXF1d
+5SqaOmO5XGI6neLj40N9B+uSxPd9jMfjXS2oQhLGGMbjMXzfP03jHoYhoihSlrYsZhgG+v0+bNvG
+4+Pj8ZSk0+nknDu0JY2iCJ1O5zgk8TwPcRwLk7DuFwgAiOM4F8daSmKaJgaDgXZpVYUNBgMYhqGv
+JFEU7aoXndKqCnMcB1EU6SmJ4zgIgiCH1VENVSwIAjiOo96T+L6vXFxqKQWlpamHymKl3W6XxtCx
+PtNxzneNVG2SuK67iz2ZgWMSx7ZtuK5bnyQyGTs2SbKYzKZQSVzXlSblUzkpsyncwbS9/Mshsykk
+STb+/oIkaRyKSPIL061cdcBfiKYAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.irrational.net/wp-includes/images/smilies/icon_smile.gif
+
+R0lGODlhDwAPALMOAP/qAEVFRQAAAP/OAP/JAP+0AP6dAP/+k//9E///////xzMzM///6//lAAAA
+AAAAACH5BAEAAA4ALAAAAAAPAA8AAARb0EkZap3YVabOGRcWcAgCnIMRTEEnCCfwpqt2mHEOagoO
+nz+CKnADxoKFyiHHBBCSAdOiCVg8KwPZa7sVrgJZQWI8FhB2msGgwTXTWGqCXP4WBQr4wjDDstQm
+EQA7
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.irrational.net/wp-content/themes/twentyten/style.css
+
+HTML {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+SPAN {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+APPLET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+OBJECT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+IFRAME {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+PRE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+ABBR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+ACRONYM {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+ADDRESS {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BIG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+CITE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+CODE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DEL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DFN {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+EM {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FONT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+INS {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+KBD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+Q {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+S {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+SAMP {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+SMALL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+STRIKE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+STRONG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+SUB {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+SUP {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+VAR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+B {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+U {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+I {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+CENTER {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+LABEL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+LEGEND {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+CAPTION {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TBODY {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TFOOT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+THEAD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TH {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent =
+scroll repeat 0% 0%; VERTICAL-ALIGN: baseline; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	LINE-HEIGHT: 1
+}
+H1 {
+	CLEAR: both; FONT-WEIGHT: normal
+}
+H2 {
+	CLEAR: both; FONT-WEIGHT: normal
+}
+H3 {
+	CLEAR: both; FONT-WEIGHT: normal
+}
+H4 {
+	CLEAR: both; FONT-WEIGHT: normal
+}
+H5 {
+	CLEAR: both; FONT-WEIGHT: normal
+}
+H6 {
+	CLEAR: both; FONT-WEIGHT: normal
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+BLOCKQUOTE {
+	QUOTES: none
+}
+BLOCKQUOTE:before {
+	CONTENT: none
+}
+BLOCKQUOTE:after {
+	CONTENT: none
+}
+DEL {
+	TEXT-DECORATION: line-through
+}
+TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+A IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+#container {
+	MARGIN: 0px -240px 0px 0px; WIDTH: 100%; FLOAT: left
+}
+#content {
+	MARGIN: 0px 280px 0px 20px
+}
+#primary {
+	WIDTH: 220px; FLOAT: right; OVERFLOW: hidden
+}
+#secondary {
+	WIDTH: 220px; FLOAT: right; OVERFLOW: hidden
+}
+#secondary {
+	CLEAR: right
+}
+#footer {
+	WIDTH: 100%; CLEAR: both
+}
+.one-column #content {
+	MARGIN: 0px auto; WIDTH: 640px
+}
+.single-attachment #content {
+	MARGIN: 0px auto; WIDTH: 900px
+}
+BODY {
+	FONT-FAMILY: Georgia, "Bitstream Charter", serif
+}
+INPUT {
+	FONT-FAMILY: Georgia, "Bitstream Charter", serif
+}
+TEXTAREA {
+	FONT-FAMILY: Georgia, "Bitstream Charter", serif
+}
+.page-title SPAN {
+	FONT-FAMILY: Georgia, "Bitstream Charter", serif
+}
+.pingback A.url {
+	FONT-FAMILY: Georgia, "Bitstream Charter", serif
+}
+H3#comments-title {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+H3#reply-title {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#access .menu {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#access DIV.menu UL {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#cancel-comment-reply-link {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.form-allowed-tags {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#site-info {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#site-title {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#wp-calendar {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.comment-meta {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.comment-body TR TH {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.comment-body THEAD TH {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.entry-content LABEL {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.entry-content TR TH {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.entry-content THEAD TH {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.entry-meta {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.entry-title {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.entry-utility {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+#respond LABEL {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.navigation {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.page-title {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.pingback P {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.reply {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.widget-title {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+.wp-caption-text {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+INPUT[type=3Dsubmit] {
+	FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", =
+sans-serif
+}
+PRE {
+	FONT-FAMILY: "Courier 10 Pitch", Courier, monospace
+}
+CODE {
+	FONT-FAMILY: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", =
+monospace
+}
+#access .menu-header {
+	MARGIN: 0px auto; WIDTH: 940px
+}
+DIV.menu {
+	MARGIN: 0px auto; WIDTH: 940px
+}
+#colophon {
+	MARGIN: 0px auto; WIDTH: 940px
+}
+#branding {
+	MARGIN: 0px auto; WIDTH: 940px
+}
+#main {
+	MARGIN: 0px auto; WIDTH: 940px
+}
+#wrapper {
+	MARGIN: 0px auto; WIDTH: 940px
+}
+#wrapper {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 20px; PADDING-LEFT: 20px; =
+PADDING-RIGHT: 20px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#footer-widget-area {
+	OVERFLOW: hidden
+}
+#footer-widget-area .widget-area {
+	WIDTH: 220px; FLOAT: left; MARGIN-RIGHT: 20px
+}
+#footer-widget-area #fourth {
+	MARGIN-RIGHT: 0px
+}
+#site-info {
+	WIDTH: 700px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#site-generator {
+	WIDTH: 220px; FLOAT: right
+}
+BODY {
+	BACKGROUND: #f1f1f1
+}
+BODY {
+	LINE-HEIGHT: 18px; COLOR: #666; FONT-SIZE: 12px
+}
+INPUT {
+	LINE-HEIGHT: 18px; COLOR: #666; FONT-SIZE: 12px
+}
+TEXTAREA {
+	LINE-HEIGHT: 18px; COLOR: #666; FONT-SIZE: 12px
+}
+HR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #e7e7e7; =
+MARGIN-BOTTOM: 18px; HEIGHT: 1px; CLEAR: both; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px
+}
+P {
+	MARGIN-BOTTOM: 18px
+}
+UL {
+	LIST-STYLE-TYPE: square; MARGIN: 0px 0px 18px 1.5em
+}
+OL {
+	LIST-STYLE-TYPE: decimal; MARGIN: 0px 0px 18px 1.5em
+}
+OL OL {
+	LIST-STYLE-TYPE: upper-alpha
+}
+OL OL OL {
+	LIST-STYLE-TYPE: lower-roman
+}
+OL OL OL OL {
+	LIST-STYLE-TYPE: lower-alpha
+}
+UL UL {
+	MARGIN-BOTTOM: 0px
+}
+OL OL {
+	MARGIN-BOTTOM: 0px
+}
+UL OL {
+	MARGIN-BOTTOM: 0px
+}
+OL UL {
+	MARGIN-BOTTOM: 0px
+}
+DL {
+	MARGIN: 0px 0px 24px
+}
+DT {
+	FONT-WEIGHT: bold
+}
+DD {
+	MARGIN-BOTTOM: 18px
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+CITE {
+	FONT-STYLE: italic
+}
+EM {
+	FONT-STYLE: italic
+}
+I {
+	FONT-STYLE: italic
+}
+BIG {
+	FONT-SIZE: 131.25%
+}
+INS {
+	BACKGROUND: #ffc; TEXT-DECORATION: none
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; FONT-STYLE: italic; PADDING-LEFT: 3em; =
+PADDING-RIGHT: 3em; PADDING-TOP: 0px
+}
+BLOCKQUOTE CITE {
+	FONT-STYLE: normal
+}
+BLOCKQUOTE EM {
+	FONT-STYLE: normal
+}
+BLOCKQUOTE I {
+	FONT-STYLE: normal
+}
+PRE {
+	PADDING-BOTTOM: 1.5em; LINE-HEIGHT: 18px; PADDING-LEFT: 1.5em; =
+PADDING-RIGHT: 1.5em; MARGIN-BOTTOM: 18px; BACKGROUND: #f7f7f7; COLOR: =
+#222; OVERFLOW: auto; PADDING-TOP: 1.5em
+}
+ABBR {
+	BORDER-BOTTOM: #666 1px dotted; CURSOR: help
+}
+ACRONYM {
+	BORDER-BOTTOM: #666 1px dotted; CURSOR: help
+}
+SUP {
+	POSITION: relative; LINE-HEIGHT: 1; HEIGHT: 0px; VERTICAL-ALIGN: =
+baseline
+}
+SUB {
+	POSITION: relative; LINE-HEIGHT: 1; HEIGHT: 0px; VERTICAL-ALIGN: =
+baseline
+}
+SUP {
+	BOTTOM: 1ex
+}
+SUB {
+	TOP: 0.5ex
+}
+INPUT[type=3D'text'] {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: =
+#f9f9f9; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; =
+PADDING-TOP: 2px; box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1); =
+-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1); =
+-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1)
+}
+TEXTAREA {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: =
+#f9f9f9; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; =
+PADDING-TOP: 2px; box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1); =
+-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1); =
+-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1)
+}
+A:link {
+	COLOR: #0066cc
+}
+A:visited {
+	COLOR: #743399
+}
+A:active {
+	COLOR: #ff4b33
+}
+A:hover {
+	COLOR: #ff4b33
+}
+.screen-reader-text {
+	POSITION: absolute; LEFT: -9000px
+}
+#header {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 30px
+}
+#site-title {
+	LINE-HEIGHT: 36px; MARGIN: 0px 0px 18px; WIDTH: 700px; FLOAT: left; =
+FONT-SIZE: 30px
+}
+#site-title A {
+	COLOR: #000; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#site-description {
+	FONT-STYLE: italic; MARGIN: 15px 0px 18px; WIDTH: 220px; FLOAT: right; =
+CLEAR: right
+}
+#branding IMG {
+	BORDER-BOTTOM: #000 1px solid; DISPLAY: block; FLOAT: left; BORDER-TOP: =
+#000 4px solid
+}
+#access {
+	MARGIN: 0px auto; WIDTH: 940px; DISPLAY: block; BACKGROUND: #000; =
+FLOAT: left
+}
+#access .menu-header {
+	WIDTH: 928px; MARGIN-LEFT: 12px; FONT-SIZE: 13px
+}
+DIV.menu {
+	WIDTH: 928px; MARGIN-LEFT: 12px; FONT-SIZE: 13px
+}
+#access .menu-header UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; LIST-STYLE-IMAGE: none
+}
+DIV.menu UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; LIST-STYLE-IMAGE: none
+}
+#access .menu-header LI {
+	POSITION: relative; FLOAT: left
+}
+DIV.menu LI {
+	POSITION: relative; FLOAT: left
+}
+#access A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 38px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; DISPLAY: block; COLOR: #aaa; TEXT-DECORATION: none; =
+PADDING-TOP: 0px
+}
+#access UL UL {
+	Z-INDEX: 99999; POSITION: absolute; WIDTH: 180px; DISPLAY: none; FLOAT: =
+left; TOP: 38px; LEFT: 0px; box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2); =
+-moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0px =
+3px 3px rgba(0, 0, 0, 0.2)
+}
+#access UL UL LI {
+	MIN-WIDTH: 180px
+}
+#access UL UL UL {
+	TOP: 0px; LEFT: 100%
+}
+#access UL UL A {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 1em; PADDING-LEFT: 10px; WIDTH: =
+160px; PADDING-RIGHT: 10px; BACKGROUND: #333; HEIGHT: auto; PADDING-TOP: =
+10px
+}
+#access LI:hover > A {
+	BACKGROUND: #333; COLOR: #fff
+}
+#access UL UL :hover > A {
+	BACKGROUND: #333; COLOR: #fff
+}
+#access UL LI:hover > UL {
+	DISPLAY: block
+}
+#access UL LI.current_page_item > A {
+	COLOR: #fff
+}
+#access UL LI.current-menu-ancestor > A {
+	COLOR: #fff
+}
+#access UL LI.current-menu-item > A {
+	COLOR: #fff
+}
+#access UL LI.current-menu-parent > A {
+	COLOR: #fff
+}
+* HTML #access UL LI.current_page_item A {
+	COLOR: #fff
+}
+* HTML #access UL LI.current-menu-ancestor A {
+	COLOR: #fff
+}
+* HTML #access UL LI.current-menu-item A {
+	COLOR: #fff
+}
+* HTML #access UL LI.current-menu-parent A {
+	COLOR: #fff
+}
+* HTML #access UL LI A:hover {
+	COLOR: #fff
+}
+#main {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: =
+both; OVERFLOW: hidden; PADDING-TOP: 40px
+}
+#content {
+	MARGIN-BOTTOM: 36px
+}
+#content {
+	LINE-HEIGHT: 24px; COLOR: #333; FONT-SIZE: 16px
+}
+#content INPUT {
+	LINE-HEIGHT: 24px; COLOR: #333; FONT-SIZE: 16px
+}
+#content TEXTAREA {
+	LINE-HEIGHT: 24px; COLOR: #333; FONT-SIZE: 16px
+}
+#content P {
+	MARGIN-BOTTOM: 24px
+}
+#content UL {
+	MARGIN-BOTTOM: 24px
+}
+#content OL {
+	MARGIN-BOTTOM: 24px
+}
+#content DD {
+	MARGIN-BOTTOM: 24px
+}
+#content PRE {
+	MARGIN-BOTTOM: 24px
+}
+#content HR {
+	MARGIN-BOTTOM: 24px
+}
+#content UL UL {
+	MARGIN-BOTTOM: 0px
+}
+#content OL OL {
+	MARGIN-BOTTOM: 0px
+}
+#content UL OL {
+	MARGIN-BOTTOM: 0px
+}
+#content OL UL {
+	MARGIN-BOTTOM: 0px
+}
+#content PRE {
+	LINE-HEIGHT: 21px; FONT-SIZE: 15px
+}
+#content KBD {
+	LINE-HEIGHT: 21px; FONT-SIZE: 15px
+}
+#content TT {
+	LINE-HEIGHT: 21px; FONT-SIZE: 15px
+}
+#content VAR {
+	LINE-HEIGHT: 21px; FONT-SIZE: 15px
+}
+#content CODE {
+	FONT-SIZE: 13px
+}
+#content DT {
+	COLOR: #000
+}
+#content TH {
+	COLOR: #000
+}
+#content H1 {
+	LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 20px; COLOR: #000
+}
+#content H2 {
+	LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 20px; COLOR: #000
+}
+#content H3 {
+	LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 20px; COLOR: #000
+}
+#content H4 {
+	LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 20px; COLOR: #000
+}
+#content H5 {
+	LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 20px; COLOR: #000
+}
+#content H6 {
+	LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 20px; COLOR: #000
+}
+#content TABLE {
+	BORDER-BOTTOM: #e7e7e7 1px solid; TEXT-ALIGN: left; BORDER-LEFT: =
+#e7e7e7 1px solid; MARGIN: 0px -1px 24px 0px; WIDTH: 100%; BORDER-TOP: =
+#e7e7e7 1px solid; BORDER-RIGHT: #e7e7e7 1px solid
+}
+#content TR TH {
+	PADDING-BOTTOM: 9px; LINE-HEIGHT: 18px; PADDING-LEFT: 24px; =
+PADDING-RIGHT: 24px; COLOR: #888; FONT-SIZE: 12px; FONT-WEIGHT: bold; =
+PADDING-TOP: 9px
+}
+#content THEAD TH {
+	PADDING-BOTTOM: 9px; LINE-HEIGHT: 18px; PADDING-LEFT: 24px; =
+PADDING-RIGHT: 24px; COLOR: #888; FONT-SIZE: 12px; FONT-WEIGHT: bold; =
+PADDING-TOP: 9px
+}
+#content TR TD {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; =
+BORDER-TOP: #e7e7e7 1px solid; PADDING-TOP: 6px
+}
+#content TR.odd TD {
+	BACKGROUND: #f2f7fc
+}
+.hentry {
+	MARGIN: 0px 0px 48px
+}
+.home .sticky {
+	PADDING-BOTTOM: 18px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; =
+BACKGROUND: #f2f7fc; MARGIN-LEFT: -20px; BORDER-TOP: #000 4px solid; =
+MARGIN-RIGHT: -20px; PADDING-TOP: 18px
+}
+.single .hentry {
+	MARGIN: 0px 0px 36px
+}
+.page-title {
+	MARGIN: 0px 0px 36px; COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.page-title SPAN {
+	FONT-STYLE: italic; COLOR: #333; FONT-SIZE: 16px; FONT-WEIGHT: normal
+}
+.page-title A:link {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.page-title A:visited {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.page-title A:active {
+	COLOR: #ff4b33
+}
+.page-title A:hover {
+	COLOR: #ff4b33
+}
+#content .entry-title {
+	LINE-HEIGHT: 1.3em; MARGIN-BOTTOM: 0px; COLOR: #000; FONT-SIZE: 21px; =
+FONT-WEIGHT: bold
+}
+.entry-title A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.entry-title A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.entry-title A:active {
+	COLOR: #ff4b33
+}
+.entry-title A:hover {
+	COLOR: #ff4b33
+}
+.entry-meta {
+	COLOR: #888; FONT-SIZE: 12px
+}
+.entry-meta ABBR {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+.entry-utility ABBR {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+.entry-meta ABBR:hover {
+	BORDER-BOTTOM: #666 1px dotted
+}
+.entry-utility ABBR:hover {
+	BORDER-BOTTOM: #666 1px dotted
+}
+.entry-content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: =
+both; PADDING-TOP: 12px
+}
+.entry-summary {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: =
+both; PADDING-TOP: 12px
+}
+.entry-content FIELDSET {
+	BORDER-BOTTOM: #e7e7e7 1px solid; BORDER-LEFT: #e7e7e7 1px solid; =
+PADDING-BOTTOM: 24px; MARGIN: 0px 0px 24px; PADDING-LEFT: 24px; =
+PADDING-RIGHT: 24px; BORDER-TOP: #e7e7e7 1px solid; BORDER-RIGHT: =
+#e7e7e7 1px solid; PADDING-TOP: 24px
+}
+.entry-content FIELDSET LEGEND {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; =
+BACKGROUND: #fff; COLOR: #000; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.entry-content INPUT {
+	MARGIN: 0px 0px 24px
+}
+.entry-content INPUT.file {
+	MARGIN-RIGHT: 24px
+}
+.entry-content INPUT.button {
+	MARGIN-RIGHT: 24px
+}
+.entry-content LABEL {
+	COLOR: #888; FONT-SIZE: 12px
+}
+.entry-content SELECT {
+	MARGIN: 0px 0px 24px
+}
+.entry-content SUP {
+	FONT-SIZE: 10px
+}
+.entry-content SUB {
+	FONT-SIZE: 10px
+}
+.entry-content BLOCKQUOTE.left {
+	TEXT-ALIGN: right; WIDTH: 33%; FLOAT: left; MARGIN-LEFT: 0px; =
+MARGIN-RIGHT: 24px
+}
+.entry-content BLOCKQUOTE.right {
+	TEXT-ALIGN: left; WIDTH: 33%; FLOAT: right; MARGIN-LEFT: 24px; =
+MARGIN-RIGHT: 0px
+}
+.page-link {
+	MARGIN: 0px 0px 22px; COLOR: #000; CLEAR: both; FONT-WEIGHT: bold; =
+WORD-SPACING: 0.5em
+}
+.page-link A:link {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.75em; PADDING-RIGHT: 0.75em; =
+BACKGROUND: #f1f1f1; COLOR: #333; FONT-WEIGHT: normal; TEXT-DECORATION: =
+none; PADDING-TOP: 0.5em
+}
+.page-link A:visited {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.75em; PADDING-RIGHT: 0.75em; =
+BACKGROUND: #f1f1f1; COLOR: #333; FONT-WEIGHT: normal; TEXT-DECORATION: =
+none; PADDING-TOP: 0.5em
+}
+.home .sticky .page-link A {
+	BACKGROUND: #d9e8f7
+}
+.page-link A:active {
+	COLOR: #ff4b33
+}
+.page-link A:hover {
+	COLOR: #ff4b33
+}
+BODY.page .edit-link {
+	DISPLAY: block; CLEAR: both
+}
+#entry-author-info {
+	PADDING-BOTTOM: 18px; LINE-HEIGHT: 20px; MARGIN: 24px 0px; =
+PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #f2f7fc; CLEAR: =
+both; FONT-SIZE: 14px; OVERFLOW: hidden; BORDER-TOP: #000 4px solid; =
+PADDING-TOP: 18px
+}
+#entry-author-info #author-avatar {
+	BORDER-BOTTOM: #e7e7e7 1px solid; BORDER-LEFT: #e7e7e7 1px solid; =
+PADDING-BOTTOM: 11px; MARGIN: 0px -104px 0px 0px; PADDING-LEFT: 11px; =
+PADDING-RIGHT: 11px; BACKGROUND: #fff; FLOAT: left; HEIGHT: 60px; =
+BORDER-TOP: #e7e7e7 1px solid; BORDER-RIGHT: #e7e7e7 1px solid; =
+PADDING-TOP: 11px
+}
+#entry-author-info #author-description {
+	MARGIN: 0px 0px 0px 104px; FLOAT: left
+}
+#entry-author-info H2 {
+	MARGIN-BOTTOM: 0px; COLOR: #000; FONT-SIZE: 100%; FONT-WEIGHT: bold
+}
+.entry-utility {
+	LINE-HEIGHT: 18px; COLOR: #888; CLEAR: both; FONT-SIZE: 12px
+}
+.entry-meta A {
+	COLOR: #888
+}
+.entry-utility A {
+	COLOR: #888
+}
+.entry-meta A:hover {
+	COLOR: #ff4b33
+}
+.entry-utility A:hover {
+	COLOR: #ff4b33
+}
+#content .video-player {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.home #content .format-aside P {
+	LINE-HEIGHT: 20px; MARGIN-TOP: 0px; MARGIN-BOTTOM: 10px; FONT-SIZE: =
+14px
+}
+.home #content .category-asides P {
+	LINE-HEIGHT: 20px; MARGIN-TOP: 0px; MARGIN-BOTTOM: 10px; FONT-SIZE: =
+14px
+}
+.home .format-aside.hentry {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.home .category-asides.hentry {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.home #content .format-aside .entry-content {
+	PADDING-TOP: 0px
+}
+.home #content .category-asides .entry-content {
+	PADDING-TOP: 0px
+}
+.format-gallery .size-thumbnail IMG {
+	BORDER-BOTTOM: #f1f1f1 10px solid; BORDER-LEFT: #f1f1f1 10px solid; =
+MARGIN-BOTTOM: 0px; BORDER-TOP: #f1f1f1 10px solid; BORDER-RIGHT: =
+#f1f1f1 10px solid
+}
+.category-gallery .size-thumbnail IMG {
+	BORDER-BOTTOM: #f1f1f1 10px solid; BORDER-LEFT: #f1f1f1 10px solid; =
+MARGIN-BOTTOM: 0px; BORDER-TOP: #f1f1f1 10px solid; BORDER-RIGHT: =
+#f1f1f1 10px solid
+}
+.format-gallery .gallery-thumb {
+	MARGIN-TOP: -4px; FLOAT: left; MARGIN-RIGHT: 20px
+}
+.category-gallery .gallery-thumb {
+	MARGIN-TOP: -4px; FLOAT: left; MARGIN-RIGHT: 20px
+}
+.home #content .format-gallery .entry-utility {
+	PADDING-TOP: 4px
+}
+.home #content .category-gallery .entry-utility {
+	PADDING-TOP: 4px
+}
+.attachment .entry-content .entry-caption {
+	MARGIN-TOP: 24px; FONT-SIZE: 140%
+}
+.attachment .entry-content .nav-previous A:before {
+	CONTENT: '\2190\00a0'
+}
+.attachment .entry-content .nav-next A:after {
+	CONTENT: '\00a0\2192'
+}
+IMG.size-auto {
+	MAX-WIDTH: 100%; HEIGHT: auto
+}
+IMG.size-full {
+	MAX-WIDTH: 100%; HEIGHT: auto
+}
+IMG.size-large {
+	MAX-WIDTH: 100%; HEIGHT: auto
+}
+IMG.size-medium {
+	MAX-WIDTH: 100%; HEIGHT: auto
+}
+.attachment IMG {
+	MAX-WIDTH: 100%; HEIGHT: auto
+}
+.alignleft {
+	MARGIN-TOP: 4px; DISPLAY: inline; FLOAT: left; MARGIN-RIGHT: 24px
+}
+IMG.alignleft {
+	MARGIN-TOP: 4px; DISPLAY: inline; FLOAT: left; MARGIN-RIGHT: 24px
+}
+.alignright {
+	MARGIN-TOP: 4px; DISPLAY: inline; FLOAT: right; MARGIN-LEFT: 24px
+}
+IMG.alignright {
+	MARGIN-TOP: 4px; DISPLAY: inline; FLOAT: right; MARGIN-LEFT: 24px
+}
+.aligncenter {
+	DISPLAY: block; MARGIN-LEFT: auto; CLEAR: both; MARGIN-RIGHT: auto
+}
+IMG.aligncenter {
+	DISPLAY: block; MARGIN-LEFT: auto; CLEAR: both; MARGIN-RIGHT: auto
+}
+IMG.alignleft {
+	MARGIN-BOTTOM: 12px
+}
+IMG.alignright {
+	MARGIN-BOTTOM: 12px
+}
+IMG.aligncenter {
+	MARGIN-BOTTOM: 12px
+}
+.wp-caption {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 4px; LINE-HEIGHT: 18px; =
+PADDING-LEFT: 4px; PADDING-RIGHT: 4px; MAX-WIDTH: 632px !important; =
+MARGIN-BOTTOM: 20px; BACKGROUND: #f1f1f1; PADDING-TOP: 4px
+}
+.wp-caption IMG {
+	MARGIN: 5px 5px 0px
+}
+.wp-caption P.wp-caption-text {
+	MARGIN: 5px; COLOR: #888; FONT-SIZE: 12px
+}
+.wp-smiley {
+	MARGIN: 0px
+}
+.gallery {
+	MARGIN: 0px auto 18px
+}
+.gallery .gallery-item {
+	TEXT-ALIGN: center; MARGIN-TOP: 0px; WIDTH: 33%; FLOAT: left
+}
+.gallery-columns-2 .gallery-item {
+	WIDTH: 50%
+}
+.gallery-columns-4 .gallery-item {
+	WIDTH: 25%
+}
+.gallery IMG {
+	BORDER-BOTTOM: #cfcfcf 2px solid; BORDER-LEFT: #cfcfcf 2px solid; =
+BORDER-TOP: #cfcfcf 2px solid; BORDER-RIGHT: #cfcfcf 2px solid
+}
+.gallery-columns-2 .attachment-medium {
+	MAX-WIDTH: 92%; HEIGHT: auto
+}
+.gallery-columns-4 .attachment-thumbnail {
+	MAX-WIDTH: 84%; HEIGHT: auto
+}
+.gallery .gallery-caption {
+	MARGIN: 0px 0px 12px; COLOR: #888; FONT-SIZE: 12px
+}
+.gallery DL {
+	MARGIN: 0px
+}
+.gallery IMG {
+	BORDER-BOTTOM: #f1f1f1 10px solid; BORDER-LEFT: #f1f1f1 10px solid; =
+BORDER-TOP: #f1f1f1 10px solid; BORDER-RIGHT: #f1f1f1 10px solid
+}
+.gallery BR + BR {
+	DISPLAY: none
+}
+#content .attachment IMG {
+	MARGIN: 0px auto; DISPLAY: block
+}
+.navigation {
+	LINE-HEIGHT: 18px; COLOR: #888; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+.navigation A:link {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.navigation A:visited {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.navigation A:active {
+	COLOR: #ff4b33
+}
+.navigation A:hover {
+	COLOR: #ff4b33
+}
+.nav-previous {
+	WIDTH: 50%; FLOAT: left
+}
+.nav-next {
+	TEXT-ALIGN: right; WIDTH: 50%; FLOAT: right
+}
+#nav-above {
+	MARGIN: 0px 0px 18px
+}
+#nav-above {
+	DISPLAY: none
+}
+.paged #nav-above {
+	DISPLAY: block
+}
+.single #nav-above {
+	DISPLAY: block
+}
+#nav-below {
+	MARGIN: -18px 0px 0px
+}
+#comments {
+	CLEAR: both
+}
+#comments .navigation {
+	PADDING-BOTTOM: 18px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+H3#comments-title {
+	MARGIN-BOTTOM: 0px; COLOR: #000; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+H3#reply-title {
+	MARGIN-BOTTOM: 0px; COLOR: #000; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+H3#comments-title {
+	PADDING-BOTTOM: 24px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 24px
+}
+.commentlist {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; LIST-STYLE-IMAGE: none
+}
+.commentlist LI.comment {
+	BORDER-BOTTOM: #e7e7e7 1px solid; POSITION: relative; PADDING-BOTTOM: =
+0px; LINE-HEIGHT: 24px; MARGIN: 0px 0px 24px; PADDING-LEFT: 56px; =
+PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#comments .comment-body UL {
+	MARGIN-BOTTOM: 18px
+}
+#comments .comment-body OL {
+	MARGIN-BOTTOM: 18px
+}
+.commentlist OL {
+	LIST-STYLE-TYPE: decimal
+}
+.commentlist .avatar {
+	POSITION: absolute; TOP: 4px; LEFT: 0px
+}
+.comment-author {
+=09
+}
+.comment-author CITE {
+	FONT-STYLE: normal; COLOR: #000; FONT-WEIGHT: bold
+}
+.comment-author .says {
+	FONT-STYLE: italic
+}
+.comment-meta {
+	MARGIN: 0px 0px 18px; FONT-SIZE: 12px
+}
+.comment-meta A:link {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.comment-meta A:visited {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.comment-meta A:active {
+	COLOR: #ff4b33
+}
+.comment-meta A:hover {
+	COLOR: #ff4b33
+}
+.commentlist .even {
+=09
+}
+.commentlist .bypostauthor {
+=09
+}
+.reply {
+	PADDING-BOTTOM: 24px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: =
+12px; PADDING-TOP: 0px
+}
+.reply A {
+	COLOR: #888
+}
+A.comment-edit-link {
+	COLOR: #888
+}
+.reply A:hover {
+	COLOR: #ff4b33
+}
+A.comment-edit-link:hover {
+	COLOR: #ff4b33
+}
+.commentlist .children {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; LIST-STYLE-IMAGE: none
+}
+.commentlist .children LI {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 0px; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.nopassword {
+	DISPLAY: none
+}
+.nocomments {
+	DISPLAY: none
+}
+#comments .pingback {
+	BORDER-BOTTOM: #e7e7e7 1px solid; PADDING-BOTTOM: 18px; MARGIN-BOTTOM: =
+18px
+}
+.commentlist LI.comment + LI.pingback {
+	MARGIN-TOP: -6px
+}
+#comments .pingback P {
+	LINE-HEIGHT: 18px; MARGIN: 0px; DISPLAY: block; COLOR: #888; FONT-SIZE: =
+12px
+}
+#comments .pingback .url {
+	FONT-STYLE: italic; FONT-SIZE: 13px
+}
+INPUT[type=3Dsubmit] {
+	COLOR: #333
+}
+#respond {
+	POSITION: relative; MARGIN: 24px 0px; OVERFLOW: hidden; BORDER-TOP: =
+#e7e7e7 1px solid
+}
+#respond P {
+	MARGIN: 0px
+}
+#respond .comment-notes {
+	MARGIN-BOTTOM: 1em
+}
+.form-allowed-tags {
+	LINE-HEIGHT: 1em
+}
+.children #respond {
+	MARGIN: 0px 48px 0px 0px
+}
+H3#reply-title {
+	MARGIN: 18px 0px
+}
+#comments-list #respond {
+	MARGIN: 0px 0px 18px
+}
+#comments-list UL #respond {
+	MARGIN: 0px
+}
+#cancel-comment-reply-link {
+	LINE-HEIGHT: 18px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+#respond .required {
+	COLOR: #ff4b33; FONT-WEIGHT: bold
+}
+#respond LABEL {
+	COLOR: #888; FONT-SIZE: 12px
+}
+#respond INPUT {
+	MARGIN: 0px 0px 9px; WIDTH: 98%
+}
+#respond TEXTAREA {
+	WIDTH: 98%
+}
+#respond .form-allowed-tags {
+	LINE-HEIGHT: 18px; COLOR: #888; FONT-SIZE: 12px
+}
+#respond .form-allowed-tags CODE {
+	FONT-SIZE: 11px
+}
+#respond .form-submit {
+	MARGIN: 12px 0px
+}
+#respond .form-submit INPUT {
+	WIDTH: auto; FONT-SIZE: 14px
+}
+.widget-area UL {
+	LIST-STYLE-TYPE: none; MARGIN-LEFT: 0px; LIST-STYLE-IMAGE: none
+}
+.widget-area UL UL {
+	LIST-STYLE-TYPE: square; MARGIN-LEFT: 1.3em
+}
+.widget-area SELECT {
+	MAX-WIDTH: 100%
+}
+.widget_search #s {
+	WIDTH: 60%
+}
+.widget_search LABEL {
+	DISPLAY: none
+}
+.widget-container {
+	MARGIN: 0px 0px 18px
+}
+.widget-title {
+	COLOR: #222; FONT-WEIGHT: bold
+}
+.widget-area A:link {
+	TEXT-DECORATION: none
+}
+.widget-area A:visited {
+	TEXT-DECORATION: none
+}
+.widget-area A:active {
+	TEXT-DECORATION: underline
+}
+.widget-area A:hover {
+	TEXT-DECORATION: underline
+}
+.widget-area .entry-meta {
+	FONT-SIZE: 11px
+}
+#wp_tag_cloud DIV {
+	LINE-HEIGHT: 1.6em
+}
+#wp-calendar {
+	WIDTH: 100%
+}
+#wp-calendar CAPTION {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4px; COLOR: #222; FONT-SIZE: 14px; =
+FONT-WEIGHT: bold
+}
+#wp-calendar THEAD {
+	FONT-SIZE: 11px
+}
+#wp-calendar THEAD TH {
+=09
+}
+#wp-calendar TBODY {
+	COLOR: #aaa
+}
+#wp-calendar TBODY TD {
+	BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff =
+1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BACKGROUND: #f5f5f5; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px =
+solid; PADDING-TOP: 3px
+}
+#wp-calendar TBODY .pad {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#wp-calendar TFOOT #next {
+	TEXT-ALIGN: right
+}
+.widget_rss A.rsswidget {
+	COLOR: #000
+}
+.widget_rss A.rsswidget:hover {
+	COLOR: #ff4b33
+}
+.widget_rss .widget-title IMG {
+	WIDTH: 11px; HEIGHT: 11px
+}
+#main .widget-area UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 20px; =
+MARGIN-LEFT: 0px; PADDING-TOP: 0px
+}
+#main .widget-area UL UL {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-LEFT: 1.3em; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+#primary {
+=09
+}
+#secondary {
+=09
+}
+#footer-widget-area {
+=09
+}
+#footer {
+	MARGIN-BOTTOM: 20px
+}
+#colophon {
+	PADDING-BOTTOM: 18px; MARGIN-TOP: -4px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; OVERFLOW: hidden; BORDER-TOP: #000 4px solid; =
+PADDING-TOP: 18px
+}
+#site-info {
+	FONT-WEIGHT: bold
+}
+#site-info A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#site-generator {
+	POSITION: relative; FONT-STYLE: italic
+}
+#site-generator A {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 20px; DISPLAY: inline-block; =
+BACKGROUND: url(images/wordpress.png) no-repeat left center; COLOR: =
+#666; TEXT-DECORATION: none
+}
+#site-generator A:hover {
+	TEXT-DECORATION: underline
+}
+IMG#wpstats {
+	MARGIN: 0px auto 10px; DISPLAY: block
+}
+PRE {
+	-webkit-text-size-adjust: 140%
+}
+CODE {
+	-webkit-text-size-adjust: 160%
+}
+#access {
+	-webkit-text-size-adjust: 120%
+}
+.entry-meta {
+	-webkit-text-size-adjust: 120%
+}
+.entry-utility {
+	-webkit-text-size-adjust: 120%
+}
+.navigation {
+	-webkit-text-size-adjust: 120%
+}
+.widget-area {
+	-webkit-text-size-adjust: 120%
+}
+#site-description {
+	-webkit-text-size-adjust: none
+}
+
+@media Print   =20
+{
+BODY {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#wrapper {
+	POSITION: relative !important; DISPLAY: block !important; FLOAT: none =
+!important; CLEAR: both !important
+}
+#header {
+	BORDER-BOTTOM: #000 2pt solid; PADDING-BOTTOM: 18pt
+}
+#colophon {
+	BORDER-TOP: #000 2pt solid
+}
+#site-title {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.4em; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; FLOAT: none; PADDING-TOP: 0px
+}
+#site-description {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.4em; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; FLOAT: none; PADDING-TOP: 0px
+}
+#site-title {
+	FONT-SIZE: 13pt
+}
+.entry-content {
+	LINE-HEIGHT: 1.6em; FONT-SIZE: 14pt
+}
+.entry-title {
+	FONT-SIZE: 21pt
+}
+#access {
+	DISPLAY: none !important
+}
+#branding IMG {
+	DISPLAY: none !important
+}
+#respond {
+	DISPLAY: none !important
+}
+.comment-edit-link {
+	DISPLAY: none !important
+}
+.edit-link {
+	DISPLAY: none !important
+}
+.navigation {
+	DISPLAY: none !important
+}
+.page-link {
+	DISPLAY: none !important
+}
+.widget-area {
+	DISPLAY: none !important
+}
+#container {
+	MARGIN: 0px; WIDTH: 100%
+}
+#header {
+	MARGIN: 0px; WIDTH: 100%
+}
+#footer {
+	MARGIN: 0px; WIDTH: 100%
+}
+#content {
+	MARGIN: 24pt 0px 0px; WIDTH: 100%
+}
+.one-column #content {
+	MARGIN: 24pt 0px 0px; WIDTH: 100%
+}
+.wp-caption P {
+	FONT-SIZE: 11pt
+}
+#site-info {
+	WIDTH: auto; FLOAT: none
+}
+#site-generator {
+	WIDTH: auto; FLOAT: none
+}
+#colophon {
+	WIDTH: auto
+}
+IMG#wpstats {
+	DISPLAY: none
+}
+#site-generator A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#entry-author-info {
+	BORDER-BOTTOM: #e7e7e7 1px solid; BORDER-LEFT: #e7e7e7 1px solid; =
+BORDER-TOP: #e7e7e7 1px solid; BORDER-RIGHT: #e7e7e7 1px solid
+}
+#main {
+	DISPLAY: inline
+}
+.home .sticky {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+
+}
+
+------=_NextPart_000_0000_01CF8FA0.35D36720
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.irrational.net/wp-includes/js/comment-reply.min.js?ver=3.8.1
+
+var addComment=3D{moveForm:function(a,b,c,d){var =
+e,f=3Dthis,g=3Df.I(a),h=3Df.I(c),i=3Df.I("cancel-comment-reply-link"),j=3D=
+f.I("comment_parent"),k=3Df.I("comment_post_ID");if(g&&h&&i&&j){f.respond=
+Id=3Dc,d=3Dd||!1,f.I("wp-temp-form-div")||(e=3Ddocument.createElement("di=
+v"),e.id=3D"wp-temp-form-div",e.style.display=3D"none",h.parentNode.inser=
+tBefore(e,h)),g.parentNode.insertBefore(h,g.nextSibling),k&&d&&(k.value=3D=
+d),j.value=3Db,i.style.display=3D"",i.onclick=3Dfunction(){var =
+a=3DaddComment,b=3Da.I("wp-temp-form-div"),c=3Da.I(a.respondId);if(b&&c)r=
+eturn =
+a.I("comment_parent").value=3D"0",b.parentNode.insertBefore(c,b),b.parent=
+Node.removeChild(b),this.style.display=3D"none",this.onclick=3Dnull,!1};t=
+ry{f.I("comment").focus()}catch(l){}return!1}},I:function(a){return =
+document.getElementById(a)}};
+------=_NextPart_000_0000_01CF8FA0.35D36720--
