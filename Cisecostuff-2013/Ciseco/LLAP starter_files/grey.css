@@ -1,0 +1,422 @@
+body {
+	//background: #000 url(../images/grey/bg.jpg) repeat left top;
+	color: #445;
+}
+#allwrap {
+	background: #fff;
+  	border: 1px solid #fff;
+}
+#topmenuwrap {
+  background: #000;
+  border-top: 0px solid #444;
+  border-bottom: 0px solid #000;
+}
+#topmenu {
+	background: none;
+	border-top: 1px solid #000;
+}
+#header {
+	background: none;
+	border-bottom: 0px solid #99a;
+}
+#logo {
+	border-top: 0px solid #fff;
+	background: none;
+}
+#headerright{
+	background: #fff url(../images/banner.jpg) no-repeat right center;
+}
+#banner {
+	background: none;
+}
+h1 {
+color: #223;
+}
+h2 {
+color: #223;
+}
+#logo h2 {
+	color:#000;
+}
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active {
+border: none;
+}
+#logo h2 a:link, #logo h2 a:visited, #logo h2 a:hover, #logo h2 a:active {
+color: #000;
+text-decoration: none;
+}
+h3 {
+color: #223;
+}
+#logo h3 {
+	color: #000;
+}
+h4 {
+color: #223;
+}
+h5 {
+color: #223;
+}
+h6 {
+color: #223;
+}
+#search{
+	background: none;
+}
+#search input.inputbox {
+	border: 0px solid #fff;
+}
+#search div.search label{
+    color: #fff;
+}
+#wrap {
+	background: #fff;
+}
+#cbody {
+
+}
+#content60 {
+	background: none;
+}
+#pathway {
+	background: none;
+	border-top: 0px solid #e7e7e8;
+}
+#pathway a:link, #pathway a:visited {
+color: #66c;
+text-decoration: none;
+}
+#pathway a:hover, #pathway a:active {
+color: #66c;
+text-decoration: underline;
+}
+#content {
+	background: none;
+}
+#footerwrap {
+	background: none;
+}
+#footer {
+	background: none;
+	color: #000;
+	border-top: 0px solid #eee;
+}
+#footer div.moduletable {
+background: none;
+}
+#sidebar {
+	background: none;
+}
+#sidebar-2 {
+	background: none;
+}
+#user1 {
+
+}
+#user2 {
+
+}
+#user5 {
+
+}
+#user6 {
+
+}
+fieldset{
+
+}
+a:link, a:visited {
+color: #bb0000;
+text-decoration: none;
+}
+a:hover, a:active {
+color: #bb0000;
+text-decoration: underline;
+}
+h2 a:link, h2 a:visited, h2 a:hover, h2 a:active {
+color: #223;
+}
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+color: #000;
+text-decoration: underline;
+}
+#a4j a:link, #a4j a:visited, #a4j a:hover, #a4j a:active {
+color: #000;
+text-decoration: underline;
+}
+/* ==== MODULES =======================================  */
+div.moduletable {
+	background: none;
+}
+div.moduletable h3 {
+	color:#223;
+    background: none;
+    border-bottom: 1px solid #99a;
+}
+/* ======= DARK =======================  */
+.moduletable_dark {
+	background: #000 ;
+	color:#fff;
+	border: 0px solid #222;
+}
+.moduletable_dark h3 {
+	color:#fff;
+	background: none;
+  border-bottom: 1px solid #fff;
+}
+.moduletable_dark a:link, .moduletable_dark a:visited, .moduletable_dark a:hover, .moduletable_dark a:active {
+color: #fff;
+text-decoration: underline;
+}
+/* ======= LIGHT =======================  */
+.moduletable_light {
+	background: #f2f2f2 url(../images/diagonal.gif) repeat left top;
+	color:#000;
+	border: 0px solid #b5bcc1;
+}
+.moduletable_light h3 {
+	color:#000;
+	background: none;
+  border-bottom: 1px solid #000;
+}
+.moduletable_light a:link, .moduletable_light a:visited, .moduletable_light a:hover, .moduletable_light a:active {
+color: #000;
+text-decoration: underline;
+}
+/* ==== SIDEBAR MODULES =======================================  */
+#sidebar div.moduletable {
+	background: none;
+}
+#sidebar div.moduletable h3 {
+	color:#223;
+    background: none;
+    border-bottom: 1px solid #99a;
+}
+/* ==== SIDEBAR2 MODULES =======================================  */
+#sidebar-2 div.moduletable {
+	background: none;
+}
+#sidebar-2 div.moduletable h3 {
+	color:#223;
+    background: none;
+    border-bottom: 1px solid #99a;
+}
+/* ======= SEARCH =======================  */
+#search .moduletable {
+	background: none;
+}
+#search .moduletable h3{
+	background: none;
+}
+/* ======= USER1=======================  */
+#user1 div.moduletable {
+
+}
+#user1 div.moduletable h3{
+	color:#223;
+	border: none;
+background: none;
+}
+/* ======= USER2=======================  */
+#user2 div.moduletable {
+
+}
+#user2 div.moduletable h3{
+	color:#223;
+background: none;
+border-bottom: none;
+}
+/* ======= USER5=======================  */
+#user5 div.moduletable {
+
+}
+#user5 div.moduletable h3{
+	color:#223;
+	border: none;
+background: none;
+}
+/* ======= USER6=======================  */
+#user6 div.moduletable {
+
+}
+#user6 div.moduletable h3{
+	color:#223;
+	border: none;
+background: none;
+}
+/* ======= Multilevel suckerfish =========== */
+#topmenu .moduletable {
+    border: 0;
+}
+#topmenu .menusfh {
+	background: none;
+	color: #fff;
+	border: 0;
+}
+#topmenu .menusfh ul {
+	background: #000;
+	border: 1px solid #fff;
+}
+#topmenu .menusfh ul ul {
+	border: 1px solid #fff;
+}
+#topmenu .menusfh ul ul ul {
+	border: 1px solid #fff;
+}
+#topmenu .menusfh li a {
+    color: #fff;
+	border-right: 1px solid #fff;
+}
+#topmenu .menusfh ul li a {
+	border: 0;
+}
+
+#topmenu .menusfh li {
+
+}
+
+#topmenu .menusfh li ul {
+
+}
+
+#topmenu .menusfh li li {
+
+}
+
+#topmenu .menusfh li ul a {
+
+}
+#topmenu .menusfh li ul ul {
+
+}
+
+#topmenu .menusfh li:hover ul ul, #topmenu .menusfh li:hover ul ul ul, #topmenu .menusfh li.sfhover ul ul, #topmenu .menusfh li.sfhover ul ul ul {
+
+}
+
+#topmenu .menusfh li:hover ul, #topmenu .menusfh li li:hover ul, #topmenu .menusfh li li li:hover ul, #topmenu .menusfh li.sfhover ul, #topmenu .menusfh li li.sfhover ul, #topmenu .menusfh li li li.sfhover ul {
+
+}
+#topmenu .menusfh li.active a {
+	color: #bbb;
+}
+#topmenu .menusfh li a:hover {
+	color: #bbb;
+}
+#topmenu .menusfh li.active li a {
+	color: #fff;
+}
+#topmenu .menusfh li:hover>a, #topmenu .menusfh li.sfhover>a {
+	color: #bbb;
+}
+#topmenu .menusfh li li:hover>a, #topmenu .menusfh li li.sfhover>a {
+	color: #bbb;
+	background:#000;
+}
+/* ======= SIDE MENUS ================================  */
+.moduletable_menu {
+background: none ;
+color: #445;
+border-bottom: 1px solid #fff;
+}
+.moduletable_menu h3 {
+	color:#223;
+    background: none;
+    border-bottom: 1px solid #99a;
+}
+.moduletable_menu li {
+	border-bottom: 1px dotted #dde;
+}
+.moduletable_menu li ul li {
+	border-bottom:0px solid #ccc;
+	border-top:0px dashed #e4e4e4;
+	background: none;
+}
+.moduletable_menu li a {
+	color: #445;
+}
+.moduletable_menu li ul li a {
+background: none;
+}
+.moduletable_menu ul.menu li.current a {
+	color:#66c;
+}
+.moduletable_menu ul.menu li.current * a {
+	color:#445;
+}
+.moduletable_menu li ul li a:hover, .moduletable_menu li.current ul li a:hover {
+	color:#66c;
+}
+.moduletable_menu li a:link, .moduletable_menu li a:visited {
+color: #445;
+text-decoration: none;
+}
+.moduletable_menu li a:hover {
+color: #66c;
+text-decoration: none;
+}
+.moduletable_menu li a:active {
+color: #66c;
+text-decoration: none;
+}
+
+/* ================  details  ==================== */
+.content_rating {
+	color: #889;
+}
+.content_vote {
+	color: #889;
+}
+.article-info {
+ 	color: #889;
+}
+/* =====================  Search results ===================== */
+dl.search-results dd.result-created {
+    color: #889;
+}
+div.search form#searchForm fieldset.word,
+div.search form#searchForm fieldset.phrases,
+div.search form#searchForm fieldset.only {
+    border: 1px solid #ccc;
+}
+.small{
+    color:#889;
+}
+/* =====================  Finder ===================== */
+div.finder form#finder-search fieldset.word {
+    border: 1px solid #999;
+}
+div#finder-filter-window {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+/* =====================  Single Contact ===================== */
+div.contact dl.tabs dt.open a {
+    color: #445;
+}
+div.contact dl.tabs dt {
+    border-left: 1px solid #ccd;
+    border-right: 1px solid #ccd;
+    border-top: 1px solid #ccd;
+}
+div.contact div.current {
+    border: 1px solid #ccd;
+}
+/* ===================== tooltip =====================  */
+.tip {
+	border:1px solid #ccc;
+	background:#fff;
+}
+/* ===================== Submit a weblink, Submit an article, Edit article =====================  */
+div.edit form fieldset
+{
+    border: 1px solid #ccc;
+}
+/* =====================  User profile ===================== */
+.profile-edit #member-profile fieldset
+{
+    border: 1px solid #ccc;
+}
+div.profile fieldset{
+    border: 1px solid #ccc;
+}

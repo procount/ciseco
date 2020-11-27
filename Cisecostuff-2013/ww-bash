@@ -1,0 +1,14 @@
+su -
+g++ xfr_uploader.cpp -o xrf_uploader
+cd ..
+g++ xfr_uploader.cpp -o xrf_uploader
+mc
+cd Allalaadimised/
+ls xrf_uploader.cpp 
+g++ xfr_uploader.cpp -o xrf_uploader
+g++ xrf_uploader.cpp -o xrf_uploader
+./xrf_uploader 
+ls *.bin
+awk 'BEGIN {RS="\n";ORS="\r\n"} {print $0}' llapRelay-V0.60-24MHz.bin  > llapRelay-V0.60-24MHz-ok.bin 
+md5sum llapRelay-V0.60-24MHz.bin 
+md5sum llapRelay-V0.60-24MHz-ok.bin 

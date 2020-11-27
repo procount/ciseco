@@ -1,0 +1,6 @@
+#!/bin/bash
+DESTFILE=$(echo "$1" | sed -e 's/\.bin//g')
+DESTFILE=$(echo "$DESTFILE-ok.bin")
+echo $DESTFILE
+awk 'BEGIN {RS="\n";ORS="\r\n"} {print $0}' ${1} > "$DESTFILE"
+# awk 'BEGIN {RS="\n";ORS="\r\n"} {print $0}' llapRelay-V0.60-24MHz.bin

@@ -1,0 +1,1402 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+/*	background: transparent; */
+}
+/*
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+html body span.clr,
+html body div.clr,
+html body li.clr,
+html body dd.clr {background: none;border: 0;clear: both;display: block;float: none;font-size: 0;list-style: none;margin: 0;padding: 0;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+/*----------------------------------------------------- */
+body {
+	text-align:left;
+	font-size:76%;
+	font-family: Arial, Verdana, Trebuchet MS, Helvetica, sans-serif;
+	line-height:1.5;
+	margin:0;
+	padding:0;
+}
+#allwrap {
+	margin: 15px auto 0 auto;
+	padding: 0 0 0 0;
+}
+#footerwrap {
+	margin: 0 auto;
+	padding: 0;
+}
+#pathway {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+text-align: left;
+margin: 0px 15px 0px 15px;
+padding: 2px 0 0 0;
+font-size: 10px;
+font-weight: normal;
+}
+#topmenuwrap {
+	margin: 10px 20px 0 20px;
+	padding: 0 0 0 0;
+	position: relative;
+	height:33px;
+}
+#topmenu {
+    float: left;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 14px;
+	height:32px;
+	position: relative;
+}
+#headerwrap {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+#header {
+	margin: 0 20px;
+	padding: 0;
+}
+#logo {
+  text-align: left;
+  float: left;
+  display: inline;
+  height: 50px;
+	width: 250px;
+	margin: 0 20px 0 0;
+	padding: 0px;
+}
+#headerright {
+  float: right;
+  display: inline;
+  width: 670px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+#banner {
+	height: 100px;
+	margin: 0 0px 0 0;
+  padding: 0;
+}
+#search {
+    display: inline;
+    float: right;
+	width: 170px;
+	height: 32px;
+	margin: 0;
+	padding: 0 0px 0 10px;;
+}
+#search input.button {
+    margin-left:2px;
+}
+#search input.inputbox {
+	padding: 0 0 0 5px;
+	height: 20px;
+	line-height: 20px;
+	width: 150px;
+	font-size: 13px;
+}
+#search div.search {
+  background: none;
+  padding: 0;
+}
+#search div.search label {
+  display:none;
+}
+#wrap {
+	text-align:left;
+	margin:0 0px;
+	padding: 5px 6px 15px 6px;
+}
+#cbody {
+margin: 0;
+padding: 15px 0 0 0;
+}
+#content60 {
+float:left;
+display: inline;
+width:560px;
+padding: 0;
+margin: 0px 15px 0 15px;
+}
+#content {
+	padding: 0 0px 10px 0px;
+	border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+}
+#footer {
+margin: 0 1px 0 1px;
+padding: 7px 0 10px 0;
+font:0.9em Arial,Helvetica,sans-serif;
+text-align: center;
+}
+#sidebar {
+float:left;
+display: inline;
+width:200px;
+padding: 0;
+margin: 0 15px 0 15px;
+}
+#sidebar-2 {
+float:left;
+display: inline;
+width:200px;
+padding: 0;
+margin: 0 15px 0 15px;
+}
+#user1 {
+padding: 0;
+margin: 15px 0 0px 0;
+}
+#user2 {
+padding: 0;
+margin: 10px 0 5px 0;
+}
+#user5 {
+padding: 0;
+margin: 3px -15px 10px -15px;
+}
+#user6 {
+padding: 0;
+margin: 5px -15px 10px -15px;
+}
+h1,h2,h3,h4,h5,h6,p,blockquote,dl,address {
+margin:0.5em 0;
+}
+fieldset{
+margin: 0.5em 0;
+padding: 0.5em 10px;
+}
+form{
+margin: 0;
+}
+ul, ol {
+margin: 0 0 0 1em;
+padding: 0 0 0 1em;
+list-style-position: outside;
+}
+li,dd {
+margin-left:0em;
+padding-left:0;
+}
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
+h1 {
+	font-size:1.5em;
+	font-family: Times New Roman, serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 3px 0 10px 0;
+	text-align: left;
+	font-weight:normal;
+}
+h2 {
+font-size:1.2em;
+line-height: 1.3;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+letter-spacing: 0px;
+font-weight: bold;
+text-align: left;
+}
+
+#logo h2 {
+  line-height: 1.3;
+	font-size: 49px;
+	font-family: Arial Black, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0px;
+	margin: 12px 0 0 0px;
+	padding: 0;
+}
+h3 {
+font-size:1.15em;
+font-weight: bold;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+text-align: left;
+}
+#logo h3 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	margin: 0 0 0 0px;
+	padding: 0;
+}
+h4 {
+font-size:1.1em;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+h5 {
+font-size:1.1em;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+h6 {
+font-size:1em;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+
+#a4j {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+	margin: 0;
+	text-align: center;
+	font-size: 0.9em;
+	padding: 0px 0 10px 0;
+}
+/* ==== MODULES =======================================  */
+div.moduletable {
+margin-bottom:20px;
+border:0px #CCC solid;
+padding: 0px 0px 0px 0px;
+}
+div.moduletable h3 {
+font-family:  Arial, Helvetica, sans-serif;
+text-align:left;
+font-size:1.15em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+margin:0 0 0.5em 0;
+padding: 0.1em 0 0.15em 0;
+}
+/* ======= DARK =======================  */
+.moduletable_dark {
+margin-bottom:20px;
+padding: 10px 15px 15px 15px;
+border:0px #CCC solid;
+}
+.moduletable_dark h3 {
+font-family:  Arial, Helvetica, sans-serif;
+text-align:left;
+font-size:1.15em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+margin:0 0 0.5em 0;
+padding: 0.1em 0 0.15em 0;
+}
+/* ======= LIGHT =======================  */
+.moduletable_light {
+margin-bottom:20px;
+padding: 10px 15px 15px 15px;
+border:0px #CCC solid;
+}
+.moduletable_light h3 {
+font-family:  Arial, Helvetica, sans-serif;
+text-align:left;
+font-size:1.15em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+margin:0 0 0.5em 0;
+padding: 0.1em 0 0.15em 0;
+}
+/* ==== SIDEBAR MODULES =======================================  */
+#sidebar div.moduletable {
+margin-bottom:20px;
+padding: 0px 0px 0px 0px;
+}
+#sidebar div.moduletable h3 {
+font-family:  Arial, Helvetica, sans-serif;
+text-align:left;
+font-size:1.15em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+margin:0 0 0.5em 0;
+padding: 0.1em 0 0.15em 0;
+}
+/* ==== SIDEBAR2 MODULES =======================================  */
+#sidebar-2 div.moduletable {
+margin-bottom:20px;
+padding: 0px 0px 0px 0px;
+}
+#sidebar-2 div.moduletable h3 {
+font-family:  Arial, Helvetica, sans-serif;
+text-align:left;
+font-size:1.15em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+margin:0 0 0.5em 0;
+padding: 0.1em 0 0.15em 0;
+}
+/* ======= FOOTER =======================  */
+#footer div.moduletable {
+padding: 0 0 5px 0;
+margin-bottom: 0;
+}
+#footer div.moduletable h3 {
+  display:none;
+}
+/* ======= SEARCH =======================  */
+#search .moduletable {
+  margin: 6px 0 0 0;
+  padding: 0 10px 0 0;
+  float: right;
+}
+#search .moduletable h3{
+  display:none;
+}
+/* ======= BANNER =======================  */
+#banner div.moduletable {
+  margin: 20px 0 0 0;
+  padding: 0;
+  float: right;
+}
+#banner div.moduletable h3{
+  display:none;
+}
+/* ======= USER1=======================  */
+#user1 div.moduletable {
+	text-align:justify;
+	margin: 0 15px;
+	padding: 0;
+	border: 0;
+	float: left;
+	display: inline;
+}
+#user1 div.moduletable h3{
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+line-height: 1.2;
+margin:0 0 8px 0;
+padding: 0;
+}
+/* ======= USER2=======================  */
+#user2 div.moduletable {
+    text-align:justify;
+	margin: 0 15px;
+	padding: 0;
+	border: 0;
+	float: left;
+	display: inline;
+}
+#user2 div.moduletable h3{
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+line-height: 1.2;
+margin:0 0 8px 0;
+padding: 0;
+}
+/* ======= USER5=======================  */
+#user5 div.moduletable {
+	text-align:justify;
+	margin: 0 15px;
+	padding: 0;
+	border: 0;
+	float: left;
+	display: inline;
+}
+#user5 div.moduletable h3{
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+line-height: 1.2;
+margin:0 0 8px 0;
+padding: 0;
+}
+/* ======= USER6=======================  */
+#user6 div.moduletable {
+	text-align:justify;
+	margin: 0 15px;
+	padding: 0 ;
+	border: 0;
+	float: left;
+	display: inline;
+}
+#user6 div.moduletable h3{
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+line-height: 1.2;
+margin:0 0 8px 0;
+padding: 0;
+}
+/* ======= Multilevel suckerfish =========== */
+#topmenu div.moduletable h3{
+	display:none;
+}
+#topmenu .moduletable {
+margin: 0;
+padding: 0;
+float: left;
+}
+#topmenu .menusfh {
+	list-style: none;
+	font-weight: normal;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+#topmenu .menusfh ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 15px;
+	text-transform: none;
+}
+#topmenu .menusfh ul ul {
+	font-size: 13px;
+}
+#topmenu .menusfh ul ul ul {
+	font-size: 13px;
+}
+#topmenu .menusfh li a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 14px 5px 14px;
+}
+#topmenu .menusfh ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 14px;
+}
+
+#topmenu .menusfh li {
+    float: left;
+	padding: 0;
+}
+
+#topmenu .menusfh li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 196px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px 0;
+}
+
+#topmenu .menusfh li li {
+	padding-right: 0;
+	width: 196px;
+}
+
+#topmenu .menusfh li ul a {
+	width: 168px;
+}
+#topmenu .menusfh li ul ul {
+	margin: -26px 0 0 196px;
+}
+
+#topmenu .menusfh li:hover ul ul, #topmenu .menusfh li:hover ul ul ul, #topmenu .menusfh li.sfhover ul ul, #topmenu .menusfh li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#topmenu .menusfh li:hover ul, #topmenu .menusfh li li:hover ul, #topmenu .menusfh li li li:hover ul, #topmenu .menusfh li.sfhover ul, #topmenu .menusfh li li.sfhover ul, #topmenu .menusfh li li li.sfhover ul {
+	left: auto;
+}
+#topmenu .menusfh li.active a {
+
+}
+#topmenu .menusfh li a:hover {
+
+}
+#topmenu .menusfh li.active li a {
+
+}
+#topmenu .menusfh li:hover>a, #topmenu .menusfh li.sfhover>a, #topmenu .menusfh li li:hover>a, #topmenu .menusfh li li.sfhover>a {
+
+}
+/* ======= SIDE MENUS ================================  */
+.moduletable_menu {
+padding: 0px 0px 5px 0px;
+margin-bottom:20px;
+}
+.moduletable_menu h3 {
+font-family:  Arial, Helvetica, sans-serif;
+text-align:left;
+font-size:1.15em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 0px;
+margin:0 0 0.5em 0;
+padding: 0.1em 0 0.15em 0;
+}
+.moduletable_menu ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+.moduletable_menu li {
+border-bottom:0px solid #ccc;
+padding: 3px 0 3px 1em;
+margin:0;
+}
+.moduletable_menu li a {
+	display:inline;
+	text-decoration:none;
+	padding: 0;
+}
+html>body .moduletable_menu li a {
+width:auto;
+}
+.moduletable_menu li ul {
+list-style-type: square;
+list-style-position: inside;
+}
+.moduletable_menu li ul li {
+	border-bottom:0px solid #ccc;
+	border-top:0px solid #ccc;
+	padding: 4px 0 2px 1em;
+}
+.moduletable_menu li ul li a {
+	display:inline;
+	text-decoration:none;
+	padding: 0;
+}
+html>body .moduletable_menu li ul li a {
+width:auto;
+}
+.moduletable_menu li a:hover {
+
+}
+.moduletable_menu li.current>a {
+
+}
+/* ========== content ======================*/
+div#content p {
+    text-align: justify;
+}
+a img {
+    border: 0;
+}
+
+/* =========== overlib ========================*/
+
+.ol-foreground {
+	background-color: #f6f6f6;
+}
+
+.ol-background {
+	background-color: #666;
+}
+
+.ol-textfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.ol-captionfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f6f6f6;
+	font-weight: bold;
+}
+.ol-captionfont a {
+	color: #0B55C4;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.ol-closefont {}
+
+/* ==============  Featured articles, Category blog  =====================7 */
+.blog-featured {
+        padding: 0;
+}
+
+.items-leading {
+        padding:0;
+        margin-bottom:10px
+}
+
+.row-separator {
+        display: block;
+        clear: both;
+        margin: 0;
+        border: 0px;
+        height:1px
+}
+
+.item-separator {
+        display: none;
+        margin: 0px;
+}
+
+.cols-1
+{
+        display: block;
+        float: none !important;
+        margin: 0 !important;
+}
+
+.cols-2 .column-1
+{
+        width:47%;
+        float:left;
+		margin:0;
+}
+
+.cols-2 .column-2
+{
+        width:47%;
+        float:right;
+        margin:0;
+}
+
+.cols-3 .column-1
+{
+        float:left;
+        width:30%;
+        padding: 0;
+        margin-right:5%;
+
+}
+.cols-3 .column-2
+{
+        float:left;
+        width:30%;
+        margin-left: 0;
+        padding: 0;
+}
+.cols-3 .column-3
+{
+        float:right;
+        width:30%;
+        padding: 0;
+}
+.cols-4 .column-1
+{
+        width:22%;
+        float:left;
+}
+
+.cols-4 .column-2
+{
+        width:22%;
+        margin-left:4%;
+        float:left;
+}
+
+.cols-4 .column-3
+{
+        width:22%;
+        margin-left:4%;
+        float:left;
+}
+
+.cols-4 .column-4
+{
+        width:22%;
+        margin-left:0;
+        float:right;
+}
+.items-row
+{
+    margin-bottom:10px !important;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4
+{
+        padding: 0;
+}
+
+.items-more
+{
+        padding:10px 0px
+}
+
+.hidelabeltxt
+{
+    display: none;
+}
+.item-page
+{
+  
+}
+/* ================  details  ==================== */
+.content_rating {
+        font-size:0.9em;
+		color: #889;
+}
+.content_vote {
+        font-size:0.9em;
+		color: #889;
+}
+.content_vote input {
+        font-size:1em;
+}
+.article-info {
+        margin:5px 0 6px 0px;
+        font-size:0.9em;
+		color: #889;
+}
+
+.article-info-term {
+        display:none;
+}
+
+.article-info dd {
+        line-height:1.3em;
+}
+
+/* ===================  icons  ====================== */
+
+ul.actions {
+        text-align:left;
+        padding:0 ;
+        margin:0
+}
+
+ul.actions li {
+        display:inline
+}
+
+ul.actions a {
+        text-decoration:none
+}
+/* =====================  pagenav  ===================== */
+div.pagenavcounter {
+        margin:10px 0 0 0;
+        padding: 0;
+		text-align: left;
+}
+ul.pagenav {
+	list-style-type:none;
+	padding:0;
+	margin-top: 10px;
+	text-align: center;
+}
+ul.pagenav li {
+	display:inline;
+	padding: 0px 4px;
+	margin:0;
+}
+ul.pagenav li {
+	line-height:2em;
+}
+ul.pagenav li a {
+	display:inline; 
+	text-decoration:none
+}
+/* ====================  pagination  ================== */
+
+div.pagination {
+        margin:10px 0 ;
+        padding:10px 0;
+		text-align: center;
+}
+
+div.pagination ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+}
+
+div.pagination li {
+        display:inline;
+        padding: 0;
+        text-align:left;
+        margin:0 5px;
+}
+
+span.pagenav {}
+
+div#content div.pagination p.counter {
+        font-weight:bold;
+		text-align: center;
+}
+/* ===================== Archive articles =================== */
+div.archive fieldset {
+    padding: 6px 0;
+	border: 0;
+}
+ul#archive-items {
+        margin:20px 0 20px 0px;
+        list-style-type:none;
+        padding:0
+}
+/* ===================== List all Categories =================== */
+div.categories-list ul {
+    list-style-type:none;
+    margin: 10px 0 0 0;
+	padding: 0;
+}
+div.categories-list ul ul{
+    list-style-type:square;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.categories-list ul ul ul{
+    list-style-type:disc;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.categories-list ul ul ul ul{
+    list-style-type:circle;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.categories-list ul ul ul ul ul{
+    list-style-type:square;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.categories-list dl dt, div.categories-list dl dd { 
+    display:inline;
+	font-style: italic;
+}
+dl.article-count dt, dl.article-count dd { 
+    display:inline;
+	font-style: italic;
+}
+div.categories-list ul li span.item-title {
+    font-size: 1.3em;
+	font-weight: bold;
+}
+div.categories-list ul li ul li span.item-title {
+    font-size: 1.25em;
+	font-weight: bold;
+}
+div.categories-list ul li ul li ul li span.item-title {
+    font-size: 1.15em;
+	font-weight: bold;
+}
+div.categories-list ul li ul li ul li ul li span.item-title {
+    font-size: 1.1em;
+	font-weight: bold;
+}
+div.category-desc img.image-left {
+    float: left;
+	padding-right: 5px;
+}
+div.category-desc img.image-right {
+    float: right;
+	padding-left: 5px;
+}
+/* ===================== Subategories =================== */
+div.cat-children {
+    margin: 15px 0 0 0;
+	padding: 0;
+}
+div.cat-children ul {
+    list-style-type:none;
+    margin: 10px 0 0 0;
+	padding: 0;
+}
+div.cat-children ul ul{
+    list-style-type:square;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.cat-children ul ul ul{
+    list-style-type:disc;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.cat-children ul ul ul ul{
+    list-style-type:circle;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.cat-children ul ul ul ul ul{
+    list-style-type:square;
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+div.cat-children ul li span.item-title {
+    font-size: 1.2em;
+	font-weight: bold;
+}
+div.cat-children ul li ul li span.item-title {
+    font-size: 1.15em;
+	font-weight: bold;
+}
+div.cat-children ul li ul li ul li span.item-title {
+    font-size: 1.10em;
+	font-weight: bold;
+}
+div.cat-children ul li ul li ul li ul li span.item-title {
+    font-size: 1.05em;
+	font-weight: bold;
+}
+div.cat-children ul li dl dt, div.cat-children ul li dl dd { 
+    display:inline;
+	font-style: italic;
+}
+/* ===================== Category list =================== */
+table.category {
+    font-size:1em;
+    margin:10px 0px 20px 0px;
+    width:99%;
+}
+table.category th {
+    text-transform: uppercase;
+    text-align: left; 
+	font-weight: bold;
+	font-size: 1.1em;
+}
+table.category td {
+    text-align: left; 
+	padding-top: 5px;
+}
+table.category th img {
+    padding-left: 5px;
+}
+/* ===================== Login/Logout =================== */
+div.login fieldset {
+    border: 0;
+}
+div.login-fields {
+    margin: 10px 0 0 0;
+}
+
+div.login-fields label {
+    display: inline-block;
+	width:9em;
+}
+div.login-fields input#username,
+div.login-fields input#password
+{
+	width: 173px;
+}
+div.login fieldset button.button {
+    margin-top: 10px;
+}
+div.logout button.button {
+    margin-top: 10px;
+}
+/* ===================== Login module =================== */
+form#login-form fieldset {
+    border:0;
+}
+form#login-form fieldset label{
+    display: inline-block;
+	width:9em;
+}
+form#login-form fieldset input#modlgn-passwd{
+    width:131px;
+}
+form#login-form fieldset input#modlgn-username{
+    width:131px;
+}
+/* =====================  User profile ===================== */
+
+#users-profile-core,
+#users-profile-custom
+{
+    margin:10px 0 15px 0;
+    padding:15px;
+}
+#users-profile-core dl,
+#users-profile-custom dl
+{
+    margin: 0;
+    padding:0;
+}
+#users-profile-core dt,
+#users-profile-custom dt
+{
+    float:left;
+    width:22em;
+    padding:3px 5px 3px 0;   
+}
+
+#users-profile-core dd,
+#users-profile-custom dd
+{
+    padding:3px 0;  	
+}
+
+#member-profile fieldset
+{
+    margin:10px 0 15px 0;
+    padding:15px;
+}
+
+#users-profile-core legend,
+#users-profile-custom legend,
+.profile-edit legend
+{
+    font-weight:bold;
+	font-size: 1.1em;
+}
+
+.profile-edit form#member-profile fieldset dd
+{ 
+    padding:5px 0;
+}
+
+.profile-edit form#member-profile fieldset dd input
+{
+    width:17em;
+}
+.profile-edit form#member-profile fieldset dd select
+{
+    width:17em;
+	height: 24px;
+}
+.profile-edit form#member-profile fieldset dt
+{
+    padding:5px 5px 5px 0; 
+	width:22em;
+	float: left;
+}
+.profile-edit span.optional{
+    font-size:0.9em;
+}
+/* =====================  Registration ===================== */
+div.registration form#member-registration fieldset
+{
+    margin:10px 0 15px 0;
+    padding: 15px 0 0 10px;
+	border:0;
+}
+div.registration form#member-registration fieldset legend
+{
+    font-weight:bold;
+	font-size: 1.2em;
+}
+div.registration form#member-registration fieldset dd
+{ 
+    padding:0 0 5px 0;
+}
+div.registration form#member-registration fieldset dd input
+{
+    width:17em;
+}
+div.registration form#member-registration button
+{
+    margin-left:10px;
+}
+div.remind form#user-registration fieldset {
+    border:0;
+}
+div.remind form#user-registration button {
+    margin-left:10px;
+}
+div.reset form#user-registration fieldset {
+    border:0;
+}
+div.reset form#user-registration button {
+    margin-left:10px;
+}
+/* =====================  Single newsfeed ===================== */
+div.newsfeed ol {
+    margin-top: 10px;
+}
+div.newsfeed ol li a{
+    font-weight: bold;
+}
+div.newsfeed ol li div a, div.newsfeed ol li div ol li a {
+    font-weight: normal;
+}
+/* =====================  Search results ===================== */
+dl.search-results dt.result-title {
+    font-weight:bold;
+	padding-top: 10px;
+}
+dl.search-results dd.result-text {
+    padding-top: 5px;
+}
+dl.search-results dd.result-created {
+    padding-top: 5px;
+	font-size: 0.9em;
+	color: #889;
+}
+div.search form#searchForm fieldset.word,
+div.search form#searchForm fieldset.phrases,
+div.search form#searchForm fieldset.only {
+    border: 1px solid #ccc;
+}
+div.search form#searchForm fieldset.word button.button {
+margin: 0px 0 0 2px;
+padding: 0px 3px;
+font-size: 12px;
+line-height:18px;
+
+}
+div.search form#searchForm fieldset.phrases div.ordering-box{
+    margin-top: 5px;
+}
+.small{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height:1.2;
+}
+.highlight{
+    font-weight:bold;
+}
+/* =====================  Finder ===================== */
+dl.search-results dt.result-title {
+    font-weight:bold;
+	padding-top: 15px;
+}
+dl.search-results dd.result-url {
+	padding-top: 5px;
+	font-size: 0.8em;
+}
+div.finder form#finder-search fieldset.word {
+    border: 1px solid #667;
+	margin-bottom: 15px;
+}
+div#advanced-search {
+	padding-bottom: 5px;
+}
+a#advanced-search-toggle {
+	font-size: 14px;
+}
+div#finder-filter-window {
+	border-top: 1px solid #667;
+	border-bottom: 1px solid #667;
+	padding: 5px 0;
+}
+ul#finder-filter-select-list {
+list-style:none;
+margin:0;
+padding:0;
+}
+ul#finder-filter-select-list li.filter-branch {
+	padding: 5px 0;
+}
+ul#finder-filter-select-list li.filter-branch label {
+	padding-right: 10px;
+}
+/* =====================  Single Contact ===================== */
+div.contact-form {
+    margin-bottom: 10px;
+}
+div.contact-form label {
+
+}
+div.contact-form form#contact-form dl {
+    margin: 10px 0;
+}
+div.contact-form form#contact-form dt {
+    margin-top: 7px;
+}
+div.contact-form form#contact-form dd {
+    margin-top: 2px;
+}
+address span {
+    display:block
+}
+div.contact form#contact-form button.button {
+    float:none !important;
+    clear:left;
+    display:block;
+    margin:15px 0 0 0;
+}
+
+div.contact dl.tabs {
+    float:left;
+    margin: 20px 0 0 0;
+	padding: 0;
+    clear:both;
+}
+div.contact dl.tabs dt {
+    float: left;
+    padding: 2px 10px;
+    border-left: 1px solid #ccd;
+    border-right: 1px solid #ccd;
+    border-top: 1px solid #ccd;
+    margin-right: 4px;
+    background: none;
+}
+div.contact dl.tabs dt a {
+    font-weight: normal;
+}
+div.contact dl.tabs dt.open {
+    background: none;
+    border-bottom: 0px solid #ccd;
+}
+div.contact dl.tabs dt.open a {
+    color: #445;
+}
+div.contact dl.tabs dt h3{
+    margin: 2px 0;
+	padding:0;
+}
+div.contact div.current {
+    clear: both;
+    border: 1px solid #ccd;
+    padding: 15px 15px;
+	margin: 0;
+}
+div.contact dl.tabs dd {
+    clear:both;
+    padding: 0;
+    margin: 0;
+}
+
+/* =====================  List Contacts, Newsfeeds ===================== */
+form#adminForm fieldset.filters {
+    border:0;
+	padding: 0;
+}
+/* ===================== tooltip =====================  */
+.tip
+{
+    font-size:0.8em;
+    text-align:left;
+    padding:5px;
+    max-width:400px;
+	border:1px solid #ccc;
+	background:#fff;
+}
+.tip-title
+{
+        font-weight:bold;
+}
+/* ===================== Email to a friend =====================  */
+div#mailto-window{
+    margin: 15px;
+}
+form#mailtoForm div.formelm label {
+    text-align: right;
+    display: inline-block;
+	width:8em;
+	padding-right: 5px;
+}
+form#mailtoForm div.formelm {
+    margin: 5px 0;
+}
+/* ===================== Submit a weblink, Submit an article, Edit article =====================  */
+div.edit form#adminForm div.formelm label {
+    text-align: left;
+    display: inline-block;
+	width:12em;
+	padding-right: 5px;
+}
+div.edit form#adminForm div.formelm {
+    margin: 5px 0;
+}
+div.edit form#adminForm div.formelm-area label {
+    text-align: left;
+    float:left;
+	width:12em;
+	padding-right: 5px;
+}
+div.edit form#adminForm div.formelm-area {
+    margin: 5px 0;
+}
+div.edit form#adminForm legend
+{
+    font-weight:bold;
+	font-size: 1.1em;
+}
+/* ===================== Statistics module =====================  */
+dl.stats-module dt { 
+    float:left;
+	padding: 0 10px 0 0;
+	font-weight:bold;
+}
+dl.stats-module_light dt { 
+    float:left;
+	padding: 0 10px 0 0;
+	font-weight:bold;
+}
+dl.stats-module_dark dt { 
+    float:left;
+	padding: 0 10px 0 0;
+	font-weight:bold;
+}
+/* ===================== Newsflash module =====================  */
+div.newsflash p { 
+    text-align: justify;
+}
+div.newsflash_light p { 
+    text-align: justify;
+}
+div.newsflash_dark p { 
+    text-align: justify;
+}
+/* ===================== Wrapper =====================  */
+div.contentpane { 
+    border: 0px solid #ccc;
+}
+
+
+/* **********START GETYOUONLINE STYLES********** */
+
+#Kboxwrap82 .Kboxgridwrap .Kboxgrid .Kboxcaption {
+    background-color: #D8D8DC !important;
+}
+
+div#zKlatest div#Kboxwrap82.Kboxwrap div.Kboxgridwrap div.Kboxgrid div.cover a {
+    display: block !important;
+    font-weight: bold !important;
+    margin-bottom: 5px !important;
+}
+
+/* ********** END GETYOUONLINE STYLES********** */
